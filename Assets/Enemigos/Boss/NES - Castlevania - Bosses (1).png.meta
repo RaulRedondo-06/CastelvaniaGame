@@ -1,0 +1,4043 @@
+fileFormatVersion: 2
+guid: 4bbfc6073764f7c4fb3114a8e52c7b3d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 284
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fbb024a288eeb4bbf092aa3b53f25c
+      internalID: -1146101337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 284
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c995ef715131a143903e691d2d8a8ae
+      internalID: 1536635876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 284
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f045e789a6397a47b4e1b6f5642c9a0
+      internalID: 1047948274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 284
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0f3d45914ed594d8288a8c4abdb73b
+      internalID: -664736565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 284
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabd086f094e9a74cae684fcd6356ba2
+      internalID: 1409037783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 284
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ceb7b06656e0ba4bb1c12106e59faaa
+      internalID: 440591720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 284
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226010d863a15ec40af42bb3c3a973c5
+      internalID: 1428288432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 284
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b387a767bcf742a4f8b09f6d850fa4a6
+      internalID: -458059401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 284
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132bd9dc75fa99d49b77e39902c84997
+      internalID: 166269951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 284
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6a95e0280ec1b4eb679bc385c4c2a1
+      internalID: 1723673019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 284
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19c262eda535434296932645ca3fae3
+      internalID: -432945219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 284
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca97e14eb11ee74d820159836e0de02
+      internalID: 863795374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_12
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 284
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcf68fd0de5d814eacdd18e04f0a79c
+      internalID: 1830944497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_13
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 284
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c56caa23566641458881d2f0518ae76
+      internalID: -136347040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_14
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 284
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3789603cf3b063d4a8cb55557fcff286
+      internalID: 158124589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 284
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28976b906bb96f4292422f89060c05c
+      internalID: -568994271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_16
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 284
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e399030b10a443848898c925a72645c6
+      internalID: 91337901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_17
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 284
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6747acddc9d81224eb89608d3bafd092
+      internalID: -540376633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_18
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 284
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ac783e4f10b3e4aad0a010df8890b9
+      internalID: 1866003735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_19
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 284
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfb29f14e2fffc46970813e78a7b0f6
+      internalID: -1267769403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 283
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffbd0e7b4027964d8681d003944e6fd
+      internalID: 399060776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_21
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 284
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5352976e0493ac149b381140fd2df7e6
+      internalID: -329087893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 284
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf88803724cb5a418af740f11e042dd
+      internalID: 1679476237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_23
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 284
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85640fdd8ae868844a83612d909d379a
+      internalID: -1248463955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 265
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5a1c1f77dfa8c448606ca02d19cf49
+      internalID: 1280748615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 259
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee93f1aef027f34a82b3c31e2ab9646
+      internalID: -1074567995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_26
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 258
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a622429aa9d2e8c4bb6f0ec5b5509f92
+      internalID: 833644060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 233
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792dbdbaedf8977469c4c9efe22937df
+      internalID: -222154859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 233
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138ceb8b42aebc7468f625eb5999f080
+      internalID: -1638060238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_29
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029151341adfb1f4293b065aa162b76c
+      internalID: 2118045961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_30
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd752ab76a7bc35418bb670fed9dd1bd
+      internalID: -1123449270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_31
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 265
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46757d44e8ca3c54880d83a283ba771e
+      internalID: -814554966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_32
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 265
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34429e5561ca1a94cb2600475fd22ad6
+      internalID: 1745221240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_33
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 233
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c312aa0938e64469d817232a3e82ab
+      internalID: 474801912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_34
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 233
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92ddb09f701df548b1b0480d6c2019a
+      internalID: -163000850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_35
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 233
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3c82b8304af1e428fe6df9d8373f73
+      internalID: 1893816577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_36
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 233
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c9f036a2055854d81056f4edc8a08f
+      internalID: -991896948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_37
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 233
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09ad2d265f31244cad449a765f10ae6
+      internalID: 23197194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_38
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 233
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88f1fa35df15a648abf3546cf66997e
+      internalID: -1957729342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_39
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 267
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64f9db1f313e4346bc436ad6684e937
+      internalID: -408533253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_40
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 267
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fae748d24f5bd4ea237978f763150c
+      internalID: -1997936826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 221
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f022a2d311a07084fb39052531014d88
+      internalID: -463699966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e97198fa7368aa4fa6fa4c035f8e66e
+      internalID: -1324768720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_43
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 221
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44f14be3db6ca943b8ee52690163c23
+      internalID: -392715708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_44
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff8acbda30531d4e9325d8610b1e0e9
+      internalID: 1247537066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_45
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 221
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdc5db6efd18714b85190520909e957
+      internalID: 1478673585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_46
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81ea903a9d3b5c4987d59e3ad713d2b
+      internalID: 1024517313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_47
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c956fe8bdca5f234c89a5492e511ab4c
+      internalID: 2086556403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_48
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713ef9e789cb8d84e9642f9d2b117643
+      internalID: -221506873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_49
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 221
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82381ce2eb0da7546a2bd4aca7a208fb
+      internalID: -956122430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 221
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5567eb753a1d8c4092473c49a4f4076
+      internalID: -752419933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_51
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc8ece34ebe87c45876e270ee196107
+      internalID: 519091541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_52
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 221
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2bacbd58e25de48b1cb59ee70de7f7
+      internalID: -2140691105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_53
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 221
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ea1a301d2be224eadd7d28411a4f5c
+      internalID: -852244332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_54
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 220
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb04bb888e5e5bd4dba364fc91ef4843
+      internalID: 539147427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_55
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebb9222c5b033d44882c99b4c1264c8
+      internalID: -456229744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_56
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adcf32dce2b9ee4daab82d31724f7af
+      internalID: 1021606597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 221
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627565acf766eb24582e32588221725a
+      internalID: -391447728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_58
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 221
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf80af4804d3ff34fad51719642e68e6
+      internalID: 1763417297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_59
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 221
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d446b6044ae204f4c9ea1548915033b2
+      internalID: -1060593560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_60
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 221
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3dc349ceca6e5488ad315e6710b977
+      internalID: -649307306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_61
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd6e311e8658924596de59ef12f0f3d
+      internalID: -1472342419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_62
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 221
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d2d516da2fe714684478d196aede4a
+      internalID: -2048616055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_63
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 220
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f934f4383e8be49af8c1fb6291fce1
+      internalID: 1087273947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_64
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4203d589bedd32e48b63ade4580dbedd
+      internalID: -1372511606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_65
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc914fa71f5aca44d81a57492475c5f3
+      internalID: 1010471129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_66
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 221
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b36db58f5d8e24f8960b2bee55af14
+      internalID: -1171548915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_67
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 221
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdaf67c81a0d814ba0379c548797ec7
+      internalID: -2133622987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_68
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f005457a06eff4d478163fb51dc9e6ac
+      internalID: -1428314351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_69
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 221
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9b8c0016a3b17418bc6af2998bf5df
+      internalID: -1177407947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_70
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 221
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771d4027b9f40e045a1b72a8908c8372
+      internalID: -2002641800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_71
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 221
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ad8872fb7b43b44a9ebbb88c5364fc
+      internalID: 505793057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_72
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 221
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0c0b7f8e2a887429b1655c3a97fb63
+      internalID: 1758370902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_73
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcb245c775253e499fe7fd54083d461
+      internalID: -111792135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_74
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 221
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6da13909d22494cad2893f7c5f8d35
+      internalID: -1819681214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_75
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 221
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628b928dc802ec1419e8472e4dea3602
+      internalID: -215079365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_76
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 221
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2af1fb31b658b45bb05e1a336c021d
+      internalID: 1866010167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_77
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 221
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf580e7b095bb84695825f231361360
+      internalID: -1029578917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_78
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 221
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbeaf7701a5c55f4a8ca07be0fe4a9da
+      internalID: 453774892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_79
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 221
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d1074e8beaef743a8d50571f73f42c
+      internalID: 1518661884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 221
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea70c7432a2270c4589bcb326c0fc86e
+      internalID: 216761003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_81
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9d48b8d2b373b40b2f258bde6b1829
+      internalID: 1039343529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_82
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 221
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85291791dc9767649931adb05cea47c8
+      internalID: -1160327987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_83
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 221
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa687a1b47742c448bb3cc0048a7fa2
+      internalID: 1762481795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_84
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 221
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ac239b76c659440a031f647bc38906
+      internalID: -1531184253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_85
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 170
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1028829891f63fd49a60066c5cf6bf4b
+      internalID: 582002444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_86
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 170
+        width: 14
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de194c6e0646f849a8ea72138b0c521
+      internalID: 1383268570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_87
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 170
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfadc1f4a8b6fb1489684b4c18a297c0
+      internalID: 2053343647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_88
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 202
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42e7cac6fbfb52468a0b5b2d3ed5d3b
+      internalID: 1479481142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_89
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 202
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fc56961ecc2014f837184e10da5e54
+      internalID: 1718048735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_90
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 211
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef63e8a26b853ae4a98e14dac19ca0b8
+      internalID: 1750030366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_91
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 170
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05194d66de95b84786ea917ea83bf46
+      internalID: -634663761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_92
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 202
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e767785173b3b6448902b454107f1a2
+      internalID: 972737946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_93
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 202
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6f6bd4c615eff4cb99752c93526c8a
+      internalID: -689124946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_94
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 202
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d65c65e964bf446871816521b15f1c
+      internalID: 670593343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_95
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 202
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b1afc7da31c0b46a45ae88c02ce7a4
+      internalID: -791438745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_96
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 170
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22d306c5297c2a46bd35f7b04fa532f
+      internalID: -901216668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_97
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 170
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91f149eefeada642b8b398196d2e5a8
+      internalID: 1726439062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_98
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 203
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b923491723e6047b3394ab90768fed
+      internalID: 430131224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_99
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 211
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f166a2990c585ee41b76a7464253d88a
+      internalID: 658958826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_100
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 159
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56a8f5ac5c1db042b43101c76b7e314
+      internalID: -1671259513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_101
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 159
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127bd48fded520f4f999aa58fa9a8db5
+      internalID: 1590215164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_102
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 147
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c552d7c82afb5e41a4d8dbf0ad2b6dc
+      internalID: -676447223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_103
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0927afa82e0ca604a9e476b5652815c0
+      internalID: -1423484922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_104
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 147
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4903e6eedc0ab6d48b6aff01f1df644a
+      internalID: -1115999306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_105
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 147
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c35969d16712bd428da82583047ca69
+      internalID: -763472289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_106
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 147
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233bc60702c4fd043a18a3ae03a50c00
+      internalID: 1252191677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_107
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 147
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7798474247f14af44a93b56e53f85d33
+      internalID: 1080624734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_108
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 147
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d227831181663d347bfdf03f33d5771e
+      internalID: -1930540911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_109
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 147
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c82883376202e841bbda2f6a470b314
+      internalID: -229044391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_110
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 147
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40cce740930c734cbe45be28082ea4e
+      internalID: -661431658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_111
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c16daded66f11647ab4653cfd9127bc
+      internalID: 2027720282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_112
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83022ec486ca2f4fa9a9b710b4357ab
+      internalID: -422091299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_113
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 147
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6b52975e708ea49925a38273a4c450
+      internalID: -1574028117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_114
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 147
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57296e580c2c2e847bc9eba06b7a95ad
+      internalID: 1510048756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_115
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 147
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75202bd4e0ca1174aab11b495a81da13
+      internalID: -2072677590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_116
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 147
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786e7581660fc0144b95e471be77bf78
+      internalID: 945105442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_117
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3b01a3b6dcf1c47bafe77a49353307
+      internalID: 1717886357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_118
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49901f4232519ca49a34b9f36e890974
+      internalID: -23554612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_119
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 147
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6190032a86bcdb848a8412bbb6953984
+      internalID: 739409461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_120
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d85dc3374aa18548a287c9f1d8367ee
+      internalID: -83126440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_121
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 147
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cbbb051fd1c984d9574b5034e400a7
+      internalID: 1552789439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_122
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e428501e79c4c5d45ad6822cd59ed4a3
+      internalID: 1070848629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_123
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb27fdbf9da083c459af3fbc30fb54fe
+      internalID: 1302327176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_124
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193ab367b61338a4fbdaa4b63215ce3c
+      internalID: -1361901522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_125
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 147
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14553f84888ec24e9240305d15ef13c
+      internalID: 957686032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_126
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396d606f45d573d4eaa78d14f959dbd9
+      internalID: -27813558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_127
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831e43842f4b7724694ac7b5efae8bc4
+      internalID: 491599322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854b0cb5c0d7c4640ac473bf27c30e6a
+      internalID: 1335257350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_129
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 80
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c696085b6b7a1394ba09a231b2bef5b3
+      internalID: 791345790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_130
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 80
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e365d9d8ee74541a5a1d1f8fc477fb
+      internalID: -1492339716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_131
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 64
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198368c0068854d4192fca2352a08b77
+      internalID: 1984137165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_132
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 80
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de82ffe56d075014d9324bade168df18
+      internalID: 344927848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_133
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbeb9abc4f712e4ebead45e6070375c
+      internalID: -1262285997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_134
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 64
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d381dc8319b83c48bbf6decc5e8a477
+      internalID: 723970615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_135
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468dd255b1ba6bd409a5aa48e661a8f8
+      internalID: 1617817177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_136
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 120
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e550a3d47a0174c9a81b048a224061
+      internalID: 1199147984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_137
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb88ff1656680b48ad1a0ec5d708990
+      internalID: 1665896374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_138
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 52
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bfa01c2b6f865439240cde849bde5d
+      internalID: 1101415724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_139
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 52
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77345136f4f6e324094290865eb18ce5
+      internalID: -2075377167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_140
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 18
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656acaa446ea8dd4eba5f77d7c57e9f2
+      internalID: -1816991717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_141
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 52
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d4ef22197fda2498bcca8782e2f347
+      internalID: -1322479765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_142
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 52
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e9c2ed240ebf94b98d88439f7cd6d6
+      internalID: -1976105464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_143
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 52
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67fe35b541f9f94284c3164ef354cfb
+      internalID: 1888274488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_144
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 57
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118e3f1d027db334fb4c179ba7233ba6
+      internalID: 1677553236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_145
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 57
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce4fe9ee323786498b66af8949b56a2
+      internalID: -521557910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_146
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 57
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de5ea2a6d897d6499639a7c89274153
+      internalID: -1418239845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_147
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 57
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7a13c11fedac445a160342aee93c2f
+      internalID: 988170084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_148
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 57
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d03413f2799174ebf53661825a93cc
+      internalID: -1139698486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_149
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 57
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322cc5bc15687e642b724e5ecb0c65a8
+      internalID: 840926464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_150
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 52
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9383531f7bd9147a7e8103c6e6e240
+      internalID: -1501733691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_151
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 47
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b01fab74c689644cb7f2146bab653bb
+      internalID: -513565224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_152
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 52
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696b2787212554744b837c9d4177296b
+      internalID: -1613483364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_153
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 52
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53103f1a7997eb46b946925e45965ea
+      internalID: 668766726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_154
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 38
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baf8f33707d4134981385bd97be7e69
+      internalID: 1403915182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_155
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23092e52427c75448bb4c9c8f708c5b
+      internalID: -422358036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_156
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 34
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2862bf9916b194d87a68d1dafdc184
+      internalID: -39578243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_157
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 18
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9a9a3f0d21b2342afe1492ef9065fc
+      internalID: -1115829456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_158
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 34
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb3c054a5b7f074db59b3261014c9f3
+      internalID: -584351177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_159
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 34
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bead550f92da2474a8fc184cd821436b
+      internalID: -230715207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_160
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 31
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86334af69a3c07c40a8f5b573d98b908
+      internalID: 1210185658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_161
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a738754ac39f349bb98e4e1baffb7b
+      internalID: -1486932604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_162
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 34
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f955bf20f88714bae9ce7f7c905ebd
+      internalID: 881362087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_163
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 34
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1596ef5163d014093af76055b7fbd6
+      internalID: 448041102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_164
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 31
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c338f1ae739d5642980a98c9b75b673
+      internalID: 242839811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_165
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 43
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0547c08b3c9c042b75b4710c90f5b5
+      internalID: -305544874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_166
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 18
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998e5bfc2dea0314ab92e0c3335a036c
+      internalID: -1192630802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_167
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 18
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f030185d054d2cd4e94829be0a4b84f8
+      internalID: -571269899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_168
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 18
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2362d82588605e24d8c704f15f02043f
+      internalID: -1446286626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_169
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 18
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542aca8f6e4147049b4a7cc394e69237
+      internalID: -726758701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_170
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 18
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41da43b1d023e346b02949eec1017b0
+      internalID: -996268249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_171
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 18
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d5364d587b97f4a88abb5930bb36ab
+      internalID: 708519535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_172
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 18
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5560b2621c84244a87115c8fd59889
+      internalID: -830152483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_173
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 15
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b79be73855132c4ebbcc4adff38577b
+      internalID: -435541530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_174
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20332bcafda98b949b6fafb5e8dbb67c
+      internalID: 1494207574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_175
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7533f63148ac1664186325731d1cf056
+      internalID: -440833557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_176
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c325a81cb19f8419cbd62550a5eefb
+      internalID: -1468862893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Bosses (1)_177
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b517a9be522d04d82be6bf1c9963eb
+      internalID: -1017975339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NES - Castlevania - Bosses (1)_0: -1146101337
+      NES - Castlevania - Bosses (1)_1: 1536635876
+      NES - Castlevania - Bosses (1)_10: -432945219
+      NES - Castlevania - Bosses (1)_100: -1671259513
+      NES - Castlevania - Bosses (1)_101: 1590215164
+      NES - Castlevania - Bosses (1)_102: -676447223
+      NES - Castlevania - Bosses (1)_103: -1423484922
+      NES - Castlevania - Bosses (1)_104: -1115999306
+      NES - Castlevania - Bosses (1)_105: -763472289
+      NES - Castlevania - Bosses (1)_106: 1252191677
+      NES - Castlevania - Bosses (1)_107: 1080624734
+      NES - Castlevania - Bosses (1)_108: -1930540911
+      NES - Castlevania - Bosses (1)_109: -229044391
+      NES - Castlevania - Bosses (1)_11: 863795374
+      NES - Castlevania - Bosses (1)_110: -661431658
+      NES - Castlevania - Bosses (1)_111: 2027720282
+      NES - Castlevania - Bosses (1)_112: -422091299
+      NES - Castlevania - Bosses (1)_113: -1574028117
+      NES - Castlevania - Bosses (1)_114: 1510048756
+      NES - Castlevania - Bosses (1)_115: -2072677590
+      NES - Castlevania - Bosses (1)_116: 945105442
+      NES - Castlevania - Bosses (1)_117: 1717886357
+      NES - Castlevania - Bosses (1)_118: -23554612
+      NES - Castlevania - Bosses (1)_119: 739409461
+      NES - Castlevania - Bosses (1)_12: 1830944497
+      NES - Castlevania - Bosses (1)_120: -83126440
+      NES - Castlevania - Bosses (1)_121: 1552789439
+      NES - Castlevania - Bosses (1)_122: 1070848629
+      NES - Castlevania - Bosses (1)_123: 1302327176
+      NES - Castlevania - Bosses (1)_124: -1361901522
+      NES - Castlevania - Bosses (1)_125: 957686032
+      NES - Castlevania - Bosses (1)_126: -27813558
+      NES - Castlevania - Bosses (1)_127: 491599322
+      NES - Castlevania - Bosses (1)_128: 1335257350
+      NES - Castlevania - Bosses (1)_129: 791345790
+      NES - Castlevania - Bosses (1)_13: -136347040
+      NES - Castlevania - Bosses (1)_130: -1492339716
+      NES - Castlevania - Bosses (1)_131: 1984137165
+      NES - Castlevania - Bosses (1)_132: 344927848
+      NES - Castlevania - Bosses (1)_133: -1262285997
+      NES - Castlevania - Bosses (1)_134: 723970615
+      NES - Castlevania - Bosses (1)_135: 1617817177
+      NES - Castlevania - Bosses (1)_136: 1199147984
+      NES - Castlevania - Bosses (1)_137: 1665896374
+      NES - Castlevania - Bosses (1)_138: 1101415724
+      NES - Castlevania - Bosses (1)_139: -2075377167
+      NES - Castlevania - Bosses (1)_14: 158124589
+      NES - Castlevania - Bosses (1)_140: -1816991717
+      NES - Castlevania - Bosses (1)_141: -1322479765
+      NES - Castlevania - Bosses (1)_142: -1976105464
+      NES - Castlevania - Bosses (1)_143: 1888274488
+      NES - Castlevania - Bosses (1)_144: 1677553236
+      NES - Castlevania - Bosses (1)_145: -521557910
+      NES - Castlevania - Bosses (1)_146: -1418239845
+      NES - Castlevania - Bosses (1)_147: 988170084
+      NES - Castlevania - Bosses (1)_148: -1139698486
+      NES - Castlevania - Bosses (1)_149: 840926464
+      NES - Castlevania - Bosses (1)_15: -568994271
+      NES - Castlevania - Bosses (1)_150: -1501733691
+      NES - Castlevania - Bosses (1)_151: -513565224
+      NES - Castlevania - Bosses (1)_152: -1613483364
+      NES - Castlevania - Bosses (1)_153: 668766726
+      NES - Castlevania - Bosses (1)_154: 1403915182
+      NES - Castlevania - Bosses (1)_155: -422358036
+      NES - Castlevania - Bosses (1)_156: -39578243
+      NES - Castlevania - Bosses (1)_157: -1115829456
+      NES - Castlevania - Bosses (1)_158: -584351177
+      NES - Castlevania - Bosses (1)_159: -230715207
+      NES - Castlevania - Bosses (1)_16: 91337901
+      NES - Castlevania - Bosses (1)_160: 1210185658
+      NES - Castlevania - Bosses (1)_161: -1486932604
+      NES - Castlevania - Bosses (1)_162: 881362087
+      NES - Castlevania - Bosses (1)_163: 448041102
+      NES - Castlevania - Bosses (1)_164: 242839811
+      NES - Castlevania - Bosses (1)_165: -305544874
+      NES - Castlevania - Bosses (1)_166: -1192630802
+      NES - Castlevania - Bosses (1)_167: -571269899
+      NES - Castlevania - Bosses (1)_168: -1446286626
+      NES - Castlevania - Bosses (1)_169: -726758701
+      NES - Castlevania - Bosses (1)_17: -540376633
+      NES - Castlevania - Bosses (1)_170: -996268249
+      NES - Castlevania - Bosses (1)_171: 708519535
+      NES - Castlevania - Bosses (1)_172: -830152483
+      NES - Castlevania - Bosses (1)_173: -435541530
+      NES - Castlevania - Bosses (1)_174: 1494207574
+      NES - Castlevania - Bosses (1)_175: -440833557
+      NES - Castlevania - Bosses (1)_176: -1468862893
+      NES - Castlevania - Bosses (1)_177: -1017975339
+      NES - Castlevania - Bosses (1)_18: 1866003735
+      NES - Castlevania - Bosses (1)_19: -1267769403
+      NES - Castlevania - Bosses (1)_2: 1047948274
+      NES - Castlevania - Bosses (1)_20: 399060776
+      NES - Castlevania - Bosses (1)_21: -329087893
+      NES - Castlevania - Bosses (1)_22: 1679476237
+      NES - Castlevania - Bosses (1)_23: -1248463955
+      NES - Castlevania - Bosses (1)_24: 1280748615
+      NES - Castlevania - Bosses (1)_25: -1074567995
+      NES - Castlevania - Bosses (1)_26: 833644060
+      NES - Castlevania - Bosses (1)_27: -222154859
+      NES - Castlevania - Bosses (1)_28: -1638060238
+      NES - Castlevania - Bosses (1)_29: 2118045961
+      NES - Castlevania - Bosses (1)_3: -664736565
+      NES - Castlevania - Bosses (1)_30: -1123449270
+      NES - Castlevania - Bosses (1)_31: -814554966
+      NES - Castlevania - Bosses (1)_32: 1745221240
+      NES - Castlevania - Bosses (1)_33: 474801912
+      NES - Castlevania - Bosses (1)_34: -163000850
+      NES - Castlevania - Bosses (1)_35: 1893816577
+      NES - Castlevania - Bosses (1)_36: -991896948
+      NES - Castlevania - Bosses (1)_37: 23197194
+      NES - Castlevania - Bosses (1)_38: -1957729342
+      NES - Castlevania - Bosses (1)_39: -408533253
+      NES - Castlevania - Bosses (1)_4: 1409037783
+      NES - Castlevania - Bosses (1)_40: -1997936826
+      NES - Castlevania - Bosses (1)_41: -463699966
+      NES - Castlevania - Bosses (1)_42: -1324768720
+      NES - Castlevania - Bosses (1)_43: -392715708
+      NES - Castlevania - Bosses (1)_44: 1247537066
+      NES - Castlevania - Bosses (1)_45: 1478673585
+      NES - Castlevania - Bosses (1)_46: 1024517313
+      NES - Castlevania - Bosses (1)_47: 2086556403
+      NES - Castlevania - Bosses (1)_48: -221506873
+      NES - Castlevania - Bosses (1)_49: -956122430
+      NES - Castlevania - Bosses (1)_5: 440591720
+      NES - Castlevania - Bosses (1)_50: -752419933
+      NES - Castlevania - Bosses (1)_51: 519091541
+      NES - Castlevania - Bosses (1)_52: -2140691105
+      NES - Castlevania - Bosses (1)_53: -852244332
+      NES - Castlevania - Bosses (1)_54: 539147427
+      NES - Castlevania - Bosses (1)_55: -456229744
+      NES - Castlevania - Bosses (1)_56: 1021606597
+      NES - Castlevania - Bosses (1)_57: -391447728
+      NES - Castlevania - Bosses (1)_58: 1763417297
+      NES - Castlevania - Bosses (1)_59: -1060593560
+      NES - Castlevania - Bosses (1)_6: 1428288432
+      NES - Castlevania - Bosses (1)_60: -649307306
+      NES - Castlevania - Bosses (1)_61: -1472342419
+      NES - Castlevania - Bosses (1)_62: -2048616055
+      NES - Castlevania - Bosses (1)_63: 1087273947
+      NES - Castlevania - Bosses (1)_64: -1372511606
+      NES - Castlevania - Bosses (1)_65: 1010471129
+      NES - Castlevania - Bosses (1)_66: -1171548915
+      NES - Castlevania - Bosses (1)_67: -2133622987
+      NES - Castlevania - Bosses (1)_68: -1428314351
+      NES - Castlevania - Bosses (1)_69: -1177407947
+      NES - Castlevania - Bosses (1)_7: -458059401
+      NES - Castlevania - Bosses (1)_70: -2002641800
+      NES - Castlevania - Bosses (1)_71: 505793057
+      NES - Castlevania - Bosses (1)_72: 1758370902
+      NES - Castlevania - Bosses (1)_73: -111792135
+      NES - Castlevania - Bosses (1)_74: -1819681214
+      NES - Castlevania - Bosses (1)_75: -215079365
+      NES - Castlevania - Bosses (1)_76: 1866010167
+      NES - Castlevania - Bosses (1)_77: -1029578917
+      NES - Castlevania - Bosses (1)_78: 453774892
+      NES - Castlevania - Bosses (1)_79: 1518661884
+      NES - Castlevania - Bosses (1)_8: 166269951
+      NES - Castlevania - Bosses (1)_80: 216761003
+      NES - Castlevania - Bosses (1)_81: 1039343529
+      NES - Castlevania - Bosses (1)_82: -1160327987
+      NES - Castlevania - Bosses (1)_83: 1762481795
+      NES - Castlevania - Bosses (1)_84: -1531184253
+      NES - Castlevania - Bosses (1)_85: 582002444
+      NES - Castlevania - Bosses (1)_86: 1383268570
+      NES - Castlevania - Bosses (1)_87: 2053343647
+      NES - Castlevania - Bosses (1)_88: 1479481142
+      NES - Castlevania - Bosses (1)_89: 1718048735
+      NES - Castlevania - Bosses (1)_9: 1723673019
+      NES - Castlevania - Bosses (1)_90: 1750030366
+      NES - Castlevania - Bosses (1)_91: -634663761
+      NES - Castlevania - Bosses (1)_92: 972737946
+      NES - Castlevania - Bosses (1)_93: -689124946
+      NES - Castlevania - Bosses (1)_94: 670593343
+      NES - Castlevania - Bosses (1)_95: -791438745
+      NES - Castlevania - Bosses (1)_96: -901216668
+      NES - Castlevania - Bosses (1)_97: 1726439062
+      NES - Castlevania - Bosses (1)_98: 430131224
+      NES - Castlevania - Bosses (1)_99: 658958826
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4945 @@
+fileFormatVersion: 2
+guid: d4025413c87acab4688f7d1ef82badca
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 182
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272b7f0a9320ae443b6c6114d6b39778
+      internalID: -1315011975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 182
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49b9de59f102d149b89c73df301ed34
+      internalID: -840425785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 182
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a9e9c2672190e4bb4cc16c758c47c8
+      internalID: -1614210201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 182
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c23ed1295d021044a44cd73d3e2c07a
+      internalID: -1778832706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 182
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e30091f309274d8808a5200901841
+      internalID: -203466960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 182
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86778d4f94e712143925bab2fe5a236b
+      internalID: 66942569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 182
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bd06c49f68ed04eb363d323911074f
+      internalID: 572492237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09696a36eabc371419981c72c7332f2d
+      internalID: -1338139145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70a248779d22f64ab84fc0a71470fd6
+      internalID: 532823048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 182
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46be9d2a7d711dc4dac01d61b1e11b55
+      internalID: -869861799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_10
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 182
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2644c7ad3e25da41b1d11ed052263d7
+      internalID: 1023139990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 181
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1275c5f9562d3429e5c6db9a21957e
+      internalID: -2066800545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_12
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 182
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8ce03ef1b550b49a9e6c35a7574a82
+      internalID: 576624034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 182
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3744888d37bb0e43b3c961809f05e2d
+      internalID: -786416916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ae9774bd1133840a4f582f4eed96d8
+      internalID: -432163819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 182
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1399929489398f549992b1a0555b385f
+      internalID: 1248005517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 182
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b946c733ce6b41843a18b6133c7974fd
+      internalID: 1521533287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 182
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d89cea77f162b4f8f77e82d0f3f88e
+      internalID: -198828496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 181
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9300349e823ae74884ec1c0b5730a00
+      internalID: -1263271094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_19
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 182
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d932fa3b6de4d14e87f07215c8a7954
+      internalID: 937467017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_20
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 182
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f38c65a73612e4791711fa5039f624
+      internalID: 1471671356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_21
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 182
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66faba9174006243aba7c2d7d15a363
+      internalID: -2064749662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_22
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 182
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749174bcc9924b44eb182221e5aa95bc
+      internalID: -194758785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_23
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b577ed21daaf7d44690f05a5ce2d7260
+      internalID: -953645824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_24
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 182
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203ff014c1b516049bfffd6808158c1a
+      internalID: 467895691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 182
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad20eefff317d647b0da478e0163cde
+      internalID: 244049438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_26
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a59cab86d9bc240af2a2ca9ade6758
+      internalID: 1982923157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_27
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 182
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c25684f24e10a84a8b87943e39670fb
+      internalID: 688857425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_28
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 182
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8bd4162fa320548bfb77f6e928a1a5
+      internalID: 1037265734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_29
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 182
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d187755436159724194d17acdd53faeb
+      internalID: 700097338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 182
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d936381fe54a36b46b8fa65be5fdb766
+      internalID: 959295671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_31
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 182
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34c832d7beadab4881327877fb677ce
+      internalID: -1459040126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_32
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 182
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f487770bbd7fe364eb416ae919bf6aab
+      internalID: -357091425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_33
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e854a470f5b37e942aa8abf4b15c639e
+      internalID: 696061840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_34
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 182
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e063711d85fdc3d47b12a6a07abae413
+      internalID: 783785482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_35
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 182
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365f280fac74d2f4c97fee5aef86539a
+      internalID: 1268239887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_36
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 181
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ab09f123a44354ca70f73dd0885869
+      internalID: 1891128794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_37
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096d5fa941900984c90a85ff46bb41cf
+      internalID: -32797780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_38
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4a2cd3135ee3644b61fc44e84fcb15
+      internalID: 104501874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 163
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56e50d074bb1d04a917bb709e4e1ab6
+      internalID: -465700926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 163
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7a08dac6551fc4e8c7239422d95a03
+      internalID: -673479755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3438cb34259426469c3c9b7fac46d39
+      internalID: -717141581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_42
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 163
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78410f1b47b73514b9781d23f4cc3b14
+      internalID: 565130071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 165
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ecb950c834c0f42ab8e3149171122e
+      internalID: -1236073179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_44
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 163
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d511f43387c3404f801c7ea0b4a549c
+      internalID: 406446306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_45
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 163
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b52225912577a5498039b01bc186724
+      internalID: 1085939278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_46
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4885901243bf1784888c94fb54837155
+      internalID: -1877921491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_47
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 166
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a2112b61357824face0abae96fb856
+      internalID: -1191998533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_48
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 164
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81cbe919b0ffd14f97df485fa7b78d1
+      internalID: 27035651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_49
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 165
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e476f60dc2e2f409123d8f2e949f41
+      internalID: 1376311206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_50
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f6f76477b02d84d98df7c2f6aab6c3
+      internalID: 2034133147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_51
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 166
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf2909965d654a48b6546bb8c66bc94
+      internalID: 51872853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_52
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 164
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a68262978b7a84d80204563b5d4ade
+      internalID: 254647951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_53
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 163
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54afb1923e7702e4695ba114a22205ab
+      internalID: 100990166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_54
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 163
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa602326c4e742a4b90b92199e7c67da
+      internalID: -338449679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_55
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae03d45afce6cb343b36bc65bf4d2c60
+      internalID: -1879643191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_56
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 163
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2a26ba45bb00c49b15a2bd8093f2a1
+      internalID: -1955159149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_57
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051c2752576d8a044bbfce0b07b9dfde
+      internalID: -1119944735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_58
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1f44e5fc1588a488ec6d88c7cf417b
+      internalID: -940499996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_59
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a6e6cd573cc8947b65e808e118bf67
+      internalID: 1022714279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_60
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 163
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37227379e85a5a43a3ee1c94cca37e1
+      internalID: 207870777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_61
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe6cfc177176664caac8e48018a4b59
+      internalID: -705266210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_62
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 130
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96976c7fcb4fdbf4090b3772dd91d6f5
+      internalID: 1007942108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_63
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 130
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03edc3252297ffa46bb4107882e8a242
+      internalID: 814090948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_64
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 130
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629c2975cf86a2143aadb44bea14adfc
+      internalID: -379556709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_65
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 130
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf257806b9ecde240bf858da005a8954
+      internalID: 1416253588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_66
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 130
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80059ab2e4d53164baaba7a93b81a59a
+      internalID: 1748802738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_67
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 130
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb8dd0dea5cae9429b2b611ececf2f7
+      internalID: -1447520691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_68
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 155
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c10d3eabdc9fac4c8b127a8af7ac49c
+      internalID: -1221057319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_69
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 150
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd6e9f02635708449b96896571795a1
+      internalID: 1607891072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_70
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 130
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8a7d7dfec236343a4ed9bc8bf74adc
+      internalID: -258861778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_71
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 130
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1668872f9a8b3774293a51fde48041cf
+      internalID: 682966624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_72
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 130
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0ca4a794aa79f4f86dce8c7a8c0a9e
+      internalID: -874933910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_73
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 147
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f0d93582c47974a8281b36e090c8d1
+      internalID: 306009197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_74
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 128
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23489277757b5fa4f8cde2a8fe752a49
+      internalID: -15356847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6416cbd1375a6cb4e993ae605d5cdb9c
+      internalID: -31557554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_76
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 128
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca60cc4b4e36dd8449cc11b6b2c909d6
+      internalID: 762224855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_77
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe92f2740d1abe841b4fe8f14ceaddfd
+      internalID: -1710979478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_78
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 128
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07db5e8eb60fdd4ab4c08178e6f10f4
+      internalID: -1230120651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_79
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 128
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdab87300a89ca349af4f7e0e19cb686
+      internalID: -1006915508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_80
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 128
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6eb98bc34635404880c715eccbe7f4b
+      internalID: 844903950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_81
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d216df0bc3514144c95fd0be1f5f32e9
+      internalID: -2132662792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_82
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 128
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02da59f94cb29f4faf9335eee164c4c
+      internalID: -1317666878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_83
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 128
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823fdca87cc443d45a24d6eb93e59059
+      internalID: -894276777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_84
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 128
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6961163d8a669478ca4ed8bf82297c
+      internalID: -262318392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_85
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ae2fedf67e8d944a7c323f2ca696a2
+      internalID: -1228612460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_86
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 128
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c145b56f432bc241b45ecfe78418d42
+      internalID: 987410976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_87
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 128
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1decdfb013779439430821d0cc8b1f
+      internalID: 716276894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_88
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 128
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0900bd1a03231754f8b7e7fa668e8a8c
+      internalID: 1704866373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_89
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 128
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d57d40d8de538f4b8d959ce7fa5e2b4
+      internalID: -82837556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_90
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 128
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c68bb8c60f2ec429ea22e3c0ed86ad
+      internalID: 1913063410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_91
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7bc7636a1d891468eb0a8c281662d3
+      internalID: 918563039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_92
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 128
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7785a740ee9f549a4b1b7e30fa716c
+      internalID: -941513355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_93
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 128
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb4ed955bef98a41bb684cfc5837191
+      internalID: 806765815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_94
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1253b2a2eb4444aa62d304a3600ee2
+      internalID: 1291578512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_95
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7b4d1f721489e44a9df474472c6414
+      internalID: 519806371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_96
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 128
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371e8386a328cd34ab03342a5defd26e
+      internalID: 807240002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_97
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 128
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e22d406a37116b4e9df7b4eef612c24
+      internalID: -2031317879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_98
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a037574a3030d0a4299545e5d1ddf301
+      internalID: -1736852594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_99
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 128
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b6d31c2ebf5bf4a9afecef00e3f357
+      internalID: 2006498707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 118
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45858a4daf49aff4ca09d625f74d39d8
+      internalID: -952655875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_101
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e716f3c2c31f194eabe9bfeebc8eef1
+      internalID: 629456320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_102
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e3b25a23817ad4ebfda82616f51a72
+      internalID: -1805805622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_103
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18e1982fbe11bb4d858584c1d2d98df
+      internalID: -1851483623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_104
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ad10264aa6f2843a567901d9c337e0
+      internalID: 1477041933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_105
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 118
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27494406f1f47f43a157018074f5a3f
+      internalID: -1330074677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_106
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 118
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6274e1f7dec0814438a21ed38b664e84
+      internalID: 1628772460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_107
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636af783a77208043a5825c64e9a5a8c
+      internalID: -1933420785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_108
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370f84ca22fb2c94c88cf77c5dfd951c
+      internalID: -200758900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_109
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9776efeef26cf64abed8c37b43599f3
+      internalID: 1221557125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_110
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ea2d72eac04884fa6635551763693e
+      internalID: 607530590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_111
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 118
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167d469463ebd2b4c9bf7b98a2a843f5
+      internalID: 1090306061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_112
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492f1f0056d514145a0de042f045d40e
+      internalID: -1418151513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_113
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1e0973b359ad341873c97a082f96b4
+      internalID: 621481396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_114
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3590629f01aa04e813c5e799bc6bc1
+      internalID: 1261447859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_115
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d173589ed95b144a73b734de8462b5
+      internalID: 1820515353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_116
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 118
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72508e1c0e1621488575c55c7b846e0
+      internalID: -1976846678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_117
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 118
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5827229176bdb4c885c6cf2f5675d4
+      internalID: 941937905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_118
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a14857e02cf1946b7a295ddbe3cef8
+      internalID: 1848567941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_119
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 118
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d265c8435c9e2a41bbd9958540d75ec
+      internalID: -1567681884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_120
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 118
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ad770c0c4840a468a704c68e58916b
+      internalID: -688123664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_121
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267e73885301a9b498da3605ffea38b7
+      internalID: -1069368579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_122
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 118
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2257451657dd34db8e93a271a187a5
+      internalID: -398683221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_123
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 118
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded1ee6a649100b42bf856a0236c9cf1
+      internalID: -443938481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_124
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 118
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8108173b27e273944816094d73b67a78
+      internalID: 573974457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_125
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6c626d49bd46445a7b9f5c25016dd2
+      internalID: 352923373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_126
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 118
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4204f3c10414f4540bb03c3fa818a284
+      internalID: -1711515346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_127
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 118
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc0d7883019c1240b9c73938e116cd7
+      internalID: 1601733115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_128
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6754fbfcf9ef8345a91cb400803d9ae
+      internalID: 143136225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_129
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b75e9be419b1c347805015cfb7f82b2
+      internalID: -854314848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_130
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005751ed6d4c48148949461bf602d9dd
+      internalID: 1364301025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_131
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 118
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c5c93d0744f464e9850ba36e1f58b5
+      internalID: -1607381008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_132
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 118
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfae249570f5bf4c8ffd48dcf6eb397
+      internalID: 1086595049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_133
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf032e53ef77404b9208bf2d3d9b3a3
+      internalID: 1398728360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_134
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdc5de9a34e87f44b6c690a2f99c25f
+      internalID: 1031617980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_135
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 118
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74a986e2d716af4ba946eeb045841fa
+      internalID: 636429955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_136
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ba4feff7ab398439873c7cb0d4c923
+      internalID: -1867861000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_137
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 118
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55f7edbd00a787428b9bef550d5a593
+      internalID: -631851541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_138
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63593ac0c37afda4583d5af978e8ac02
+      internalID: 1910487444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_139
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f285fded03109f44b2f44c39efb1f24
+      internalID: -1180705810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_140
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63d8dc6bdd9bb24db417a8e89a9c851
+      internalID: 711424736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_141
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85a16336f7927546b8523e96cafea04
+      internalID: 1849723778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_142
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b986e9d67b515429cf2d5d1a3338a5
+      internalID: 1694367962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_143
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d31f244f9324643a78ca64947271cc
+      internalID: 1096194283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_144
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 83
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93e3fda3473cb6459dc3035adb35257
+      internalID: 2082499492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_145
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 83
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b77b53d09b466d42b1d0d6f0c23c636
+      internalID: 2055877470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_146
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 108
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37c77d3af8f1c74a864b8e9a6fcbf84
+      internalID: -1966941275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_147
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 99
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03726c3f32f0f4443aa0f7c70dc12c56
+      internalID: 213212116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_148
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 99
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9681196c566355b4ca9f2c76762d0a76
+      internalID: -1953190453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_149
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5309e54bcf6cc544aefde48ee7cf8a2
+      internalID: -1008319870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_150
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 99
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d72708053691248a9aa2ff0093d9be
+      internalID: -1784391892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_151
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 100
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb31d1e6a83feb40afdd7161ddf5a5e
+      internalID: -580548785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_152
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a29187394399b4ba65d1b3b8886bb3
+      internalID: 435651763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_153
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 100
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3dcd23416e96e449f88a302d7c5762
+      internalID: 1932736385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_154
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 99
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533f06d7db9215e4cb7773889f39b593
+      internalID: 674913753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_155
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 83
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5320200373eb7d7449143329a9c3a9ee
+      internalID: 436641928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_156
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 83
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babedfe73952288478ffc91bf5c8c33d
+      internalID: 1635603536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_157
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 99
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949166e6e36bde144a242af15c3ebd32
+      internalID: 1460642794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_158
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 100
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea1017206533b145b4ed57b1eeb29bc
+      internalID: -584222128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_159
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 100
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8d882c781d2fa469b8d72b75a9a906
+      internalID: 1056971067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e23ae2f9716e6744972790e324d972c
+      internalID: -1787459755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_161
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 71
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede849d618ed6c941b6542f9f22f0e20
+      internalID: -1507272435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_162
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 70
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3bd30afc5c43449bafe362984a2d68
+      internalID: -1153681354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_163
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 71
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd60293c53ff684ba79c9add54dacaa
+      internalID: 768605109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_164
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fff000c0ac0aee4e8284ce9d5f1f900
+      internalID: -2146737826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_165
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cad65bb8f2dc8499c55b72360beb50
+      internalID: 596383683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_166
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 71
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8615d26ea483b345a569ae3178db2e9
+      internalID: 1519712205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_167
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 71
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f327d951a5ef09e49a750168b48aeab0
+      internalID: 1353607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_168
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7487193b28bbd449b812992a6bd13c
+      internalID: 1308465876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_169
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 71
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7afe17c819408f43a7f68d61ddd207f
+      internalID: -1454629412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_170
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 71
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6099131784a7141813b7cf5b785aed
+      internalID: 1728129696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_171
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 70
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447704fa06bc78a46b18417e84caa38f
+      internalID: 1241212738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_172
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 71
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a8a152835ba9745987b41ed2e155e4
+      internalID: -511800461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_173
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 71
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaa6eda180de3345abb5bf1d1c1ea4d
+      internalID: -514753471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_174
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb096a84dc31d44c832011885605495
+      internalID: 918744449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_175
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 71
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5d1989f34332a4f858393a431984dc
+      internalID: 166063445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_176
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f89046c82a1e1645a6103d381b698eb
+      internalID: -1191673796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_177
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65144b7d0f166d94eb758de2e9e5a8a6
+      internalID: -235165994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_178
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cedc16419e18f48bfac6f0ddf9c267
+      internalID: -635967921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_179
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 71
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e1d5b130e283b47823825d243fd924
+      internalID: 1991756038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_180
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 71
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f11b8dfd5133a448b3f743577d6734
+      internalID: 977000473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_181
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f31776a76d2404eb34cf19be71605d
+      internalID: 1049820070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_182
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 71
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd71039ae83948488386bc90a5c7e4a
+      internalID: -1728553407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_183
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 71
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b045ad14e4eff1142a527bd35cf344e6
+      internalID: 2126108134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_184
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f1dda3239d77a4a9305ef18b1611f3
+      internalID: 1007596107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_185
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 71
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eead1ac36fc82d4ca973e44c7c14a5d
+      internalID: -828501335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_186
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 71
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503636042e75d6947979b3f4ca0e270a
+      internalID: -911368644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_187
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecb5d2bddd190c48b33f84214249a31
+      internalID: -1140393819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_188
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 71
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0babcba475c09e74ab64a7c79f224aad
+      internalID: -388569036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_189
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 71
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5daf6747519b34794f45e6bc41dc3e
+      internalID: -208848558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_190
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb21bbf8656acc49a4db6f0febd99a1
+      internalID: -484186863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_191
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 71
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a443c316046fece4ca0f13c4b1ea6ae8
+      internalID: 1693218469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_192
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 66
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7dbe0ec1f7a0b4dab5041002722240
+      internalID: -708308580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_193
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f0293382be2a640bd044530d45f057
+      internalID: 1018409582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_194
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55aafc341bc9efe40a78f24d39542f64
+      internalID: 432999635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_195
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebfbe548837da843bddc016a6e6557f
+      internalID: -2121872511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_196
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226c2c798ce83c941876b0f00f8def7d
+      internalID: -419382337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_197
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d793781e88742364d913c4adcf468e03
+      internalID: 2041838588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_198
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 71
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9117a4ea0ae06b4b8d4cac528748efb
+      internalID: -727935500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_199
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 71
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599b80db75144c340addc2b2c9330912
+      internalID: 232545482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_200
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af48671259cae144db40412a3301eb22
+      internalID: -208415171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_201
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6555235612fcd164fbcd2313d44d2313
+      internalID: -1828253039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_202
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 52
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e8f8f2c869d8649bcaa9f30c36f3aa
+      internalID: -664984966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_203
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaa78ae9f86dc447830b50ca831b268
+      internalID: -1244585893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_204
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 52
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba240447643c2d4898412501fbb2c77
+      internalID: 2107316863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_205
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 61
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd50b8967ffbd8c4ebd1918955f6888a
+      internalID: 971901227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_206
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feae10e647741d04291a7053c8b81f8b
+      internalID: 1648011433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_207
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 36
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a69180b94742a41a7c918cb54ac9ce
+      internalID: 580727178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_208
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 36
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f979a29739eda74db783c20ed037088
+      internalID: 1874418998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_209
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 36
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423ba17536b52624baffaf71e468ffb9
+      internalID: 620842414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_210
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 36
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7ba811e54703142971fe95084f5a7e
+      internalID: 388419485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_211
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 54
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf7fb39367b33a4eb4795f16edcc32e
+      internalID: 117717520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_212
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 54
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bd99ca18c82014ca4a1ce5a3fc4d35
+      internalID: -787908567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_213
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 52
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab356004f56421409476110b3519bfa
+      internalID: -547094588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_214
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 52
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e1bbee4796fb34b99f20ca2ae3edb9
+      internalID: -1794921212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_215
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 53
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be884c64f4070245991b2adbb0a257f
+      internalID: 2043990235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_216
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 53
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781237fb286a9cf4fbb8e5dd76f40caf
+      internalID: 1216221077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_217
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 36
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dea701813f5734baeb640f2fb2df46
+      internalID: 1046881273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Castlevania - Enemies (1)(1)_218
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 52
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce84ac07f40b082498f4e265596664cd
+      internalID: 851604755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NES - Castlevania - Enemies (1)(1)_0: -1315011975
+      NES - Castlevania - Enemies (1)(1)_1: -840425785
+      NES - Castlevania - Enemies (1)(1)_10: 1023139990
+      NES - Castlevania - Enemies (1)(1)_100: -952655875
+      NES - Castlevania - Enemies (1)(1)_101: 629456320
+      NES - Castlevania - Enemies (1)(1)_102: -1805805622
+      NES - Castlevania - Enemies (1)(1)_103: -1851483623
+      NES - Castlevania - Enemies (1)(1)_104: 1477041933
+      NES - Castlevania - Enemies (1)(1)_105: -1330074677
+      NES - Castlevania - Enemies (1)(1)_106: 1628772460
+      NES - Castlevania - Enemies (1)(1)_107: -1933420785
+      NES - Castlevania - Enemies (1)(1)_108: -200758900
+      NES - Castlevania - Enemies (1)(1)_109: 1221557125
+      NES - Castlevania - Enemies (1)(1)_11: -2066800545
+      NES - Castlevania - Enemies (1)(1)_110: 607530590
+      NES - Castlevania - Enemies (1)(1)_111: 1090306061
+      NES - Castlevania - Enemies (1)(1)_112: -1418151513
+      NES - Castlevania - Enemies (1)(1)_113: 621481396
+      NES - Castlevania - Enemies (1)(1)_114: 1261447859
+      NES - Castlevania - Enemies (1)(1)_115: 1820515353
+      NES - Castlevania - Enemies (1)(1)_116: -1976846678
+      NES - Castlevania - Enemies (1)(1)_117: 941937905
+      NES - Castlevania - Enemies (1)(1)_118: 1848567941
+      NES - Castlevania - Enemies (1)(1)_119: -1567681884
+      NES - Castlevania - Enemies (1)(1)_12: 576624034
+      NES - Castlevania - Enemies (1)(1)_120: -688123664
+      NES - Castlevania - Enemies (1)(1)_121: -1069368579
+      NES - Castlevania - Enemies (1)(1)_122: -398683221
+      NES - Castlevania - Enemies (1)(1)_123: -443938481
+      NES - Castlevania - Enemies (1)(1)_124: 573974457
+      NES - Castlevania - Enemies (1)(1)_125: 352923373
+      NES - Castlevania - Enemies (1)(1)_126: -1711515346
+      NES - Castlevania - Enemies (1)(1)_127: 1601733115
+      NES - Castlevania - Enemies (1)(1)_128: 143136225
+      NES - Castlevania - Enemies (1)(1)_129: -854314848
+      NES - Castlevania - Enemies (1)(1)_13: -786416916
+      NES - Castlevania - Enemies (1)(1)_130: 1364301025
+      NES - Castlevania - Enemies (1)(1)_131: -1607381008
+      NES - Castlevania - Enemies (1)(1)_132: 1086595049
+      NES - Castlevania - Enemies (1)(1)_133: 1398728360
+      NES - Castlevania - Enemies (1)(1)_134: 1031617980
+      NES - Castlevania - Enemies (1)(1)_135: 636429955
+      NES - Castlevania - Enemies (1)(1)_136: -1867861000
+      NES - Castlevania - Enemies (1)(1)_137: -631851541
+      NES - Castlevania - Enemies (1)(1)_138: 1910487444
+      NES - Castlevania - Enemies (1)(1)_139: -1180705810
+      NES - Castlevania - Enemies (1)(1)_14: -432163819
+      NES - Castlevania - Enemies (1)(1)_140: 711424736
+      NES - Castlevania - Enemies (1)(1)_141: 1849723778
+      NES - Castlevania - Enemies (1)(1)_142: 1694367962
+      NES - Castlevania - Enemies (1)(1)_143: 1096194283
+      NES - Castlevania - Enemies (1)(1)_144: 2082499492
+      NES - Castlevania - Enemies (1)(1)_145: 2055877470
+      NES - Castlevania - Enemies (1)(1)_146: -1966941275
+      NES - Castlevania - Enemies (1)(1)_147: 213212116
+      NES - Castlevania - Enemies (1)(1)_148: -1953190453
+      NES - Castlevania - Enemies (1)(1)_149: -1008319870
+      NES - Castlevania - Enemies (1)(1)_15: 1248005517
+      NES - Castlevania - Enemies (1)(1)_150: -1784391892
+      NES - Castlevania - Enemies (1)(1)_151: -580548785
+      NES - Castlevania - Enemies (1)(1)_152: 435651763
+      NES - Castlevania - Enemies (1)(1)_153: 1932736385
+      NES - Castlevania - Enemies (1)(1)_154: 674913753
+      NES - Castlevania - Enemies (1)(1)_155: 436641928
+      NES - Castlevania - Enemies (1)(1)_156: 1635603536
+      NES - Castlevania - Enemies (1)(1)_157: 1460642794
+      NES - Castlevania - Enemies (1)(1)_158: -584222128
+      NES - Castlevania - Enemies (1)(1)_159: 1056971067
+      NES - Castlevania - Enemies (1)(1)_16: 1521533287
+      NES - Castlevania - Enemies (1)(1)_160: -1787459755
+      NES - Castlevania - Enemies (1)(1)_161: -1507272435
+      NES - Castlevania - Enemies (1)(1)_162: -1153681354
+      NES - Castlevania - Enemies (1)(1)_163: 768605109
+      NES - Castlevania - Enemies (1)(1)_164: -2146737826
+      NES - Castlevania - Enemies (1)(1)_165: 596383683
+      NES - Castlevania - Enemies (1)(1)_166: 1519712205
+      NES - Castlevania - Enemies (1)(1)_167: 1353607
+      NES - Castlevania - Enemies (1)(1)_168: 1308465876
+      NES - Castlevania - Enemies (1)(1)_169: -1454629412
+      NES - Castlevania - Enemies (1)(1)_17: -198828496
+      NES - Castlevania - Enemies (1)(1)_170: 1728129696
+      NES - Castlevania - Enemies (1)(1)_171: 1241212738
+      NES - Castlevania - Enemies (1)(1)_172: -511800461
+      NES - Castlevania - Enemies (1)(1)_173: -514753471
+      NES - Castlevania - Enemies (1)(1)_174: 918744449
+      NES - Castlevania - Enemies (1)(1)_175: 166063445
+      NES - Castlevania - Enemies (1)(1)_176: -1191673796
+      NES - Castlevania - Enemies (1)(1)_177: -235165994
+      NES - Castlevania - Enemies (1)(1)_178: -635967921
+      NES - Castlevania - Enemies (1)(1)_179: 1991756038
+      NES - Castlevania - Enemies (1)(1)_18: -1263271094
+      NES - Castlevania - Enemies (1)(1)_180: 977000473
+      NES - Castlevania - Enemies (1)(1)_181: 1049820070
+      NES - Castlevania - Enemies (1)(1)_182: -1728553407
+      NES - Castlevania - Enemies (1)(1)_183: 2126108134
+      NES - Castlevania - Enemies (1)(1)_184: 1007596107
+      NES - Castlevania - Enemies (1)(1)_185: -828501335
+      NES - Castlevania - Enemies (1)(1)_186: -911368644
+      NES - Castlevania - Enemies (1)(1)_187: -1140393819
+      NES - Castlevania - Enemies (1)(1)_188: -388569036
+      NES - Castlevania - Enemies (1)(1)_189: -208848558
+      NES - Castlevania - Enemies (1)(1)_19: 937467017
+      NES - Castlevania - Enemies (1)(1)_190: -484186863
+      NES - Castlevania - Enemies (1)(1)_191: 1693218469
+      NES - Castlevania - Enemies (1)(1)_192: -708308580
+      NES - Castlevania - Enemies (1)(1)_193: 1018409582
+      NES - Castlevania - Enemies (1)(1)_194: 432999635
+      NES - Castlevania - Enemies (1)(1)_195: -2121872511
+      NES - Castlevania - Enemies (1)(1)_196: -419382337
+      NES - Castlevania - Enemies (1)(1)_197: 2041838588
+      NES - Castlevania - Enemies (1)(1)_198: -727935500
+      NES - Castlevania - Enemies (1)(1)_199: 232545482
+      NES - Castlevania - Enemies (1)(1)_2: -1614210201
+      NES - Castlevania - Enemies (1)(1)_20: 1471671356
+      NES - Castlevania - Enemies (1)(1)_200: -208415171
+      NES - Castlevania - Enemies (1)(1)_201: -1828253039
+      NES - Castlevania - Enemies (1)(1)_202: -664984966
+      NES - Castlevania - Enemies (1)(1)_203: -1244585893
+      NES - Castlevania - Enemies (1)(1)_204: 2107316863
+      NES - Castlevania - Enemies (1)(1)_205: 971901227
+      NES - Castlevania - Enemies (1)(1)_206: 1648011433
+      NES - Castlevania - Enemies (1)(1)_207: 580727178
+      NES - Castlevania - Enemies (1)(1)_208: 1874418998
+      NES - Castlevania - Enemies (1)(1)_209: 620842414
+      NES - Castlevania - Enemies (1)(1)_21: -2064749662
+      NES - Castlevania - Enemies (1)(1)_210: 388419485
+      NES - Castlevania - Enemies (1)(1)_211: 117717520
+      NES - Castlevania - Enemies (1)(1)_212: -787908567
+      NES - Castlevania - Enemies (1)(1)_213: -547094588
+      NES - Castlevania - Enemies (1)(1)_214: -1794921212
+      NES - Castlevania - Enemies (1)(1)_215: 2043990235
+      NES - Castlevania - Enemies (1)(1)_216: 1216221077
+      NES - Castlevania - Enemies (1)(1)_217: 1046881273
+      NES - Castlevania - Enemies (1)(1)_218: 851604755
+      NES - Castlevania - Enemies (1)(1)_22: -194758785
+      NES - Castlevania - Enemies (1)(1)_23: -953645824
+      NES - Castlevania - Enemies (1)(1)_24: 467895691
+      NES - Castlevania - Enemies (1)(1)_25: 244049438
+      NES - Castlevania - Enemies (1)(1)_26: 1982923157
+      NES - Castlevania - Enemies (1)(1)_27: 688857425
+      NES - Castlevania - Enemies (1)(1)_28: 1037265734
+      NES - Castlevania - Enemies (1)(1)_29: 700097338
+      NES - Castlevania - Enemies (1)(1)_3: -1778832706
+      NES - Castlevania - Enemies (1)(1)_30: 959295671
+      NES - Castlevania - Enemies (1)(1)_31: -1459040126
+      NES - Castlevania - Enemies (1)(1)_32: -357091425
+      NES - Castlevania - Enemies (1)(1)_33: 696061840
+      NES - Castlevania - Enemies (1)(1)_34: 783785482
+      NES - Castlevania - Enemies (1)(1)_35: 1268239887
+      NES - Castlevania - Enemies (1)(1)_36: 1891128794
+      NES - Castlevania - Enemies (1)(1)_37: -32797780
+      NES - Castlevania - Enemies (1)(1)_38: 104501874
+      NES - Castlevania - Enemies (1)(1)_39: -465700926
+      NES - Castlevania - Enemies (1)(1)_4: -203466960
+      NES - Castlevania - Enemies (1)(1)_40: -673479755
+      NES - Castlevania - Enemies (1)(1)_41: -717141581
+      NES - Castlevania - Enemies (1)(1)_42: 565130071
+      NES - Castlevania - Enemies (1)(1)_43: -1236073179
+      NES - Castlevania - Enemies (1)(1)_44: 406446306
+      NES - Castlevania - Enemies (1)(1)_45: 1085939278
+      NES - Castlevania - Enemies (1)(1)_46: -1877921491
+      NES - Castlevania - Enemies (1)(1)_47: -1191998533
+      NES - Castlevania - Enemies (1)(1)_48: 27035651
+      NES - Castlevania - Enemies (1)(1)_49: 1376311206
+      NES - Castlevania - Enemies (1)(1)_5: 66942569
+      NES - Castlevania - Enemies (1)(1)_50: 2034133147
+      NES - Castlevania - Enemies (1)(1)_51: 51872853
+      NES - Castlevania - Enemies (1)(1)_52: 254647951
+      NES - Castlevania - Enemies (1)(1)_53: 100990166
+      NES - Castlevania - Enemies (1)(1)_54: -338449679
+      NES - Castlevania - Enemies (1)(1)_55: -1879643191
+      NES - Castlevania - Enemies (1)(1)_56: -1955159149
+      NES - Castlevania - Enemies (1)(1)_57: -1119944735
+      NES - Castlevania - Enemies (1)(1)_58: -940499996
+      NES - Castlevania - Enemies (1)(1)_59: 1022714279
+      NES - Castlevania - Enemies (1)(1)_6: 572492237
+      NES - Castlevania - Enemies (1)(1)_60: 207870777
+      NES - Castlevania - Enemies (1)(1)_61: -705266210
+      NES - Castlevania - Enemies (1)(1)_62: 1007942108
+      NES - Castlevania - Enemies (1)(1)_63: 814090948
+      NES - Castlevania - Enemies (1)(1)_64: -379556709
+      NES - Castlevania - Enemies (1)(1)_65: 1416253588
+      NES - Castlevania - Enemies (1)(1)_66: 1748802738
+      NES - Castlevania - Enemies (1)(1)_67: -1447520691
+      NES - Castlevania - Enemies (1)(1)_68: -1221057319
+      NES - Castlevania - Enemies (1)(1)_69: 1607891072
+      NES - Castlevania - Enemies (1)(1)_7: -1338139145
+      NES - Castlevania - Enemies (1)(1)_70: -258861778
+      NES - Castlevania - Enemies (1)(1)_71: 682966624
+      NES - Castlevania - Enemies (1)(1)_72: -874933910
+      NES - Castlevania - Enemies (1)(1)_73: 306009197
+      NES - Castlevania - Enemies (1)(1)_74: -15356847
+      NES - Castlevania - Enemies (1)(1)_75: -31557554
+      NES - Castlevania - Enemies (1)(1)_76: 762224855
+      NES - Castlevania - Enemies (1)(1)_77: -1710979478
+      NES - Castlevania - Enemies (1)(1)_78: -1230120651
+      NES - Castlevania - Enemies (1)(1)_79: -1006915508
+      NES - Castlevania - Enemies (1)(1)_8: 532823048
+      NES - Castlevania - Enemies (1)(1)_80: 844903950
+      NES - Castlevania - Enemies (1)(1)_81: -2132662792
+      NES - Castlevania - Enemies (1)(1)_82: -1317666878
+      NES - Castlevania - Enemies (1)(1)_83: -894276777
+      NES - Castlevania - Enemies (1)(1)_84: -262318392
+      NES - Castlevania - Enemies (1)(1)_85: -1228612460
+      NES - Castlevania - Enemies (1)(1)_86: 987410976
+      NES - Castlevania - Enemies (1)(1)_87: 716276894
+      NES - Castlevania - Enemies (1)(1)_88: 1704866373
+      NES - Castlevania - Enemies (1)(1)_89: -82837556
+      NES - Castlevania - Enemies (1)(1)_9: -869861799
+      NES - Castlevania - Enemies (1)(1)_90: 1913063410
+      NES - Castlevania - Enemies (1)(1)_91: 918563039
+      NES - Castlevania - Enemies (1)(1)_92: -941513355
+      NES - Castlevania - Enemies (1)(1)_93: 806765815
+      NES - Castlevania - Enemies (1)(1)_94: 1291578512
+      NES - Castlevania - Enemies (1)(1)_95: 519806371
+      NES - Castlevania - Enemies (1)(1)_96: 807240002
+      NES - Castlevania - Enemies (1)(1)_97: -2031317879
+      NES - Castlevania - Enemies (1)(1)_98: -1736852594
+      NES - Castlevania - Enemies (1)(1)_99: 2006498707
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
