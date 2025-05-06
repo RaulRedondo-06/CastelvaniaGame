@@ -9,13 +9,17 @@ public class Timer : MonoBehaviour
     [SerializeField] TextMeshProUGUI txt;
     [SerializeField] private float time;
 
-    private int timeSeconds;
     const string SAVEGAMEKEY_TIME = "SavedTime";
 
+
+    private void Start()
+    {
+        LoadTime();
+    }
     //guardar temps
     public void LoadTime()
     {
-        timeSeconds = PlayerPrefs.GetInt(SAVEGAMEKEY_TIME, 0);
+        time = PlayerPrefs.GetInt(SAVEGAMEKEY_TIME, 0);
         UpdateUI();
     }
     public void ResetTime(bool save = true)
@@ -25,12 +29,13 @@ public class Timer : MonoBehaviour
         {
             PlayerPrefs.Save();
         }
+        LoadTime();
 
     }
 
     public void SaveTime(bool save = true)
     {
-        PlayerPrefs.SetFloat(SAVEGAMEKEY_TIME, time);
+        PlayerPrefs.SetInt(SAVEGAMEKEY_TIME, (int)time);
 
         if (save)
         {
@@ -40,20 +45,17 @@ public class Timer : MonoBehaviour
 
     void UpdateUI()
     {
-        txt.text = string.Format("{0000}", timeSeconds);
+        txt.text = string.Format("{0000}", (int)time);
 
     }
 
     //-------
 
-    void TimerGame() 
+    void TimerGame()
     {
         time += Time.deltaTime;
 
-        timeSeconds = Mathf.FloorToInt(time);
-
-        txt.text = string.Format("{0000}", timeSeconds);
-
+        UpdateUI();
     }
 
     // Update is called once per frame

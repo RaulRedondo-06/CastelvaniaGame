@@ -28,6 +28,8 @@ public class Banck_acount : MonoBehaviour
             PlayerPrefs.Save();
         }
 
+        LoadMoney();
+
     }
 
     public void SaveMoney(bool save = true)
