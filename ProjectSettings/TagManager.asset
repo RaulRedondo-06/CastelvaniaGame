@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - BULLET
+  - Latigo
+  - Hacha
+  - Cuchillo
   layers:
   - Default
   - TransparentFX
@@ -13,11 +17,11 @@ TagManager:
   - Water
   - UI
   - colisions
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Floor
+  - Weapon
+  - Player
+  - ObjetoRompible
+  - Item
   - 
   - 
   - 
