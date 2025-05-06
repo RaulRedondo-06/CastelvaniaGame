@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerWeaponSwich : MonoBehaviour
 {
     public enum TipoArma {Ninguna, Latigo,Cuchillo,Hacha}
-    public TipoArma armaActual = TipoArma.Ninguna;
+    public TipoArma armaActual = TipoArma.Latigo;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

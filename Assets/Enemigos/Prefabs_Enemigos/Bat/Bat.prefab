@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 6461150722314354083}
   - component: {fileID: 4704757897872069883}
   - component: {fileID: 1528349647084244424}
+  - component: {fileID: 834131563208290810}
   m_Layer: 0
   m_Name: Bat
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 3816919667779640415}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.09, y: -4.74, z: -1}
+  m_LocalPosition: {x: -4.69, y: -4.5, z: -1}
   m_LocalScale: {x: 11.01292, y: 8.657688, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102,7 +103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   amplitude: 0.03
-  frequency: 1
+  frequency: 4
   moveRight: 0
 --- !u!95 &6461150722314354083
 Animator:
@@ -197,3 +198,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &834131563208290810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816919667779640415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc63151d797b104c8869cdb4fd8341d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 25
+  Death: 0

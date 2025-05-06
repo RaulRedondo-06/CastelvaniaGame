@@ -11,11 +11,13 @@ public class ObjetosRompibles : MonoBehaviour
     public GameObject objeto1;
     public GameObject objeto2;
     public GameObject objeto3;
+    public GameObject objeto4;
+    public GameObject objeto5;
     public Transform puntSpawn;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        int randomNumbre = Random.Range(0, 3)+1;
+        int randomNumbre = Random.Range(0, 5)+1;
         if (collision.gameObject.layer == LayerMask.NameToLayer("Weapon"))
         {
             vida--;
@@ -37,6 +39,16 @@ public class ObjetosRompibles : MonoBehaviour
                     if (randomNumbre == 3)
                     {
                         Instantiate(objeto3, puntSpawn.position, puntSpawn.rotation);
+                        Destroy(gameObject);
+                    }
+                    if (randomNumbre == 4)
+                    {
+                        Instantiate(objeto4, puntSpawn.position, puntSpawn.rotation);
+                        Destroy(gameObject);
+                    }
+                    if (randomNumbre == 5)
+                    {
+                        Instantiate(objeto5, puntSpawn.position, puntSpawn.rotation);
                         Destroy(gameObject);
                     }
                 }
