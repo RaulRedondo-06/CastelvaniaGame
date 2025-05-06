@@ -25,6 +25,7 @@ public class Movimiento : MonoBehaviour
     Rigidbody2D rb2D;
     Animator ator;
     public float raycastDistance = 0.35f;
+    private PlayerWeaponSwich weaponSwitch;
 
     void Start()
     {
@@ -36,6 +37,13 @@ public class Movimiento : MonoBehaviour
         currentStates = STATES.ONFLOOR;
         rb2D = GetComponent<Rigidbody2D>();
         ator = GetComponent<Animator>();
+        weaponSwitch = GetComponent<PlayerWeaponSwich>();
+
+        // Verificación de que weaponSwitch no es null
+        if (weaponSwitch == null)
+        {
+            Debug.LogError("No se encontró el componente PlayerWeaponSwich en el mismo GameObject. Asigna el script PlayerWeaponSwich al GameObject.");
+        }
     }
 
     // Update is called once per frame
@@ -112,7 +120,7 @@ public class Movimiento : MonoBehaviour
             return;
         if (ToOnAir())
             return;
-
+        ator.SetBool("latigo_A", false);
         ator.SetBool("Lanzar", true);
     }
 
@@ -145,9 +153,13 @@ public class Movimiento : MonoBehaviour
     {
         if(attack_ia.triggered && !throw_ai.triggered)
         {
-            currentStates = STATES.ONATTACK;
-            ONATTACK();
-            return true;
+            if (weaponSwitch.armaActual == PlayerWeaponSwich.TipoArma.Latigo)
+            {
+                currentStates = STATES.ONATTACK;
+                ONATTACK();
+                return true;
+            }
+            return false;
         }
         return false;
     }
@@ -155,10 +167,14 @@ public class Movimiento : MonoBehaviour
     {
         if (throw_ai.triggered && !attack_ia.triggered)
         {
-            Debug.Log("Hola");
-            currentStates = STATES.ONTHROW;
-            ONTHROW();
-            return true;
+            if (weaponSwitch.armaActual == PlayerWeaponSwich.TipoArma.Cuchillo || weaponSwitch.armaActual == PlayerWeaponSwich.TipoArma.Hacha)
+            {
+                Debug.Log("Hola");
+                currentStates = STATES.ONTHROW;
+                ONTHROW();
+                return true;
+            }
+            return false;
         }
         return false;
     }
