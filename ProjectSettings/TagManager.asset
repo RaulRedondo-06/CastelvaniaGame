@@ -9,6 +9,8 @@ TagManager:
   - Latigo
   - Hacha
   - Cuchillo
+  - Turn
+  - Stair
   layers:
   - Default
   - TransparentFX
