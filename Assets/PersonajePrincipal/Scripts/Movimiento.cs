@@ -1,7 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -17,7 +14,7 @@ public class Movimiento : MonoBehaviour
     LayerMask FloorLayer;
     private enum STATES
     {
-        ONFLOOR, ONAIR, ONATTACK, ONTHROW
+        ONFLOOR, ONAIR, ONATTACK, ONTHROW, ONSTAIRSUP, ONSTAIRSDOWN,
     };
     private STATES currentStates;
     public InputActionAsset inputActionMapping;
@@ -26,6 +23,7 @@ public class Movimiento : MonoBehaviour
     Animator ator;
     public float raycastDistance = 0.35f;
     private PlayerWeaponSwich weaponSwitch;
+    public PlayerStairMovement Stairs;
 
     void Start()
     {
@@ -63,6 +61,12 @@ public class Movimiento : MonoBehaviour
             case STATES.ONTHROW:
                 ONTHROW();
                 break;
+            case STATES.ONSTAIRSUP:
+                ONSTAIRSUP();
+                break;
+            case STATES.ONSTAIRSDOWN:
+                ONSTAIRSDOWN();
+                break;
         }
     }
 
@@ -74,7 +78,10 @@ public class Movimiento : MonoBehaviour
             return;
         if (ToOnThrow())
             return;
-
+        if (ToOnStairsUp())
+            return;
+        if (ToOnStairsDown())
+            return;
         float mx = horizontal_ia.ReadValue<float>();
         rb2D.velocity = new Vector2(mx * speed, rb2D.velocity.y);
         ator.SetFloat("caminar", Math.Abs(mx * speed));
@@ -82,6 +89,8 @@ public class Movimiento : MonoBehaviour
         ator.SetBool("jump", false);
         ator.SetBool("latigo_A", false);
         ator.SetBool("Lanzar", false);
+        ator.SetBool("S_up", false);
+        ator.SetBool("S_down", false);
         if (jump_ia.triggered)
         {
             rb2D.AddForce(new Vector2(0, 1) * jumpImpulse, ForceMode2D.Impulse);
@@ -96,12 +105,17 @@ public class Movimiento : MonoBehaviour
             return;
         if (ToOnThrow())
             return;
-
+        if (ToOnStairsUp())
+            return;
+        if (ToOnStairsDown())
+            return;
         float mx = horizontal_ia.ReadValue<float>();
         rb2D.velocity = new Vector2(mx * speed / 2, rb2D.velocity.y);
         ator.SetBool("jump", true);
         ator.SetBool("latigo_A", false);
         ator.SetBool("Lanzar", false);
+        ator.SetBool("S_up", false);
+        ator.SetBool("S_down", false);
     }
     private void ONATTACK()
     {
@@ -109,10 +123,15 @@ public class Movimiento : MonoBehaviour
             return;
         if (ToOnAir())
             return;
+        if (ToOnStairsUp())
+            return;
+        if (ToOnStairsDown())
+            return;
 
-   
         ator.SetBool("latigo_A", true);
         ator.SetBool("Lanzar", false);
+        ator.SetBool("S_up", false);
+        ator.SetBool("S_down", false);
     }
     private void ONTHROW()
     {
@@ -120,15 +139,47 @@ public class Movimiento : MonoBehaviour
             return;
         if (ToOnAir())
             return;
+        if (ToOnStairsUp())
+            return;
+        if (ToOnStairsDown())
+            return;
         ator.SetBool("latigo_A", false);
         ator.SetBool("Lanzar", true);
+        ator.SetBool("S_up", false);
+        ator.SetBool("S_down", false);
+    }
+
+    private void ONSTAIRSUP()
+    {
+        if (ToOnFloor())
+            return;
+        if (ToOnAir())
+            return;
+        ator.SetBool("S_up", true);
+        ator.SetBool("S_down", false);
+        ator.SetBool("Lanzar", false);
+        ator.SetBool("latigo_A", false);
+        ator.SetBool("jump", false);
+    }
+
+    private void ONSTAIRSDOWN()
+    {
+        if (ToOnFloor())
+            return;
+        if (ToOnAir())
+            return;
+        ator.SetBool("S_up", false);
+        ator.SetBool("S_down", true);
+        ator.SetBool("Lanzar", false);
+        ator.SetBool("latigo_A", false);
+        ator.SetBool("jump", false);
     }
 
     bool ToOnAir()
     {
         RaycastHit2D hit1 = Physics2D.Raycast(raycastOrigin.position, -raycastOrigin.up, raycastDistance, FloorLayer);
         Debug.DrawRay(raycastOrigin.position, -raycastOrigin.up * raycastDistance, Color.red);
-        if (!hit1 && !attack_ia.triggered && !throw_ai.triggered)
+        if (!hit1 && !attack_ia.triggered && !throw_ai.triggered && Stairs.up == false && Stairs.down == false)
         {
             currentStates = STATES.ONAIR;
             ONAIR();
@@ -141,7 +192,7 @@ public class Movimiento : MonoBehaviour
     {
         RaycastHit2D hit1 = Physics2D.Raycast(raycastOrigin.position, -raycastOrigin.up, raycastDistance, FloorLayer);
         Debug.DrawRay(raycastOrigin.position, -raycastOrigin.up * raycastDistance, Color.red);
-        if (hit1 && !attack_ia.triggered && !throw_ai.triggered )
+        if (hit1 && !attack_ia.triggered && !throw_ai.triggered && Stairs.up == false && Stairs.down == false)
         {
             currentStates = STATES.ONFLOOR;
             ONFLOOR();
@@ -151,7 +202,7 @@ public class Movimiento : MonoBehaviour
     }
     bool ToOnAttack()
     {
-        if(attack_ia.triggered && !throw_ai.triggered)
+        if (attack_ia.triggered && !throw_ai.triggered && Stairs.up == false && Stairs.down == false)
         {
             if (weaponSwitch.armaActual == PlayerWeaponSwich.TipoArma.Latigo)
             {
@@ -165,7 +216,7 @@ public class Movimiento : MonoBehaviour
     }
     bool ToOnThrow()
     {
-        if (throw_ai.triggered && !attack_ia.triggered)
+        if (throw_ai.triggered && !attack_ia.triggered && Stairs.up == false && Stairs.down == false)
         {
             if (weaponSwitch.armaActual == PlayerWeaponSwich.TipoArma.Cuchillo || weaponSwitch.armaActual == PlayerWeaponSwich.TipoArma.Hacha)
             {
@@ -177,6 +228,31 @@ public class Movimiento : MonoBehaviour
             return false;
         }
         return false;
+    }
+    bool ToOnStairsUp()
+    {
+        if (Stairs.up == true && Stairs.down == false)
+        {
+            Debug.Log("Hola");
+            currentStates = STATES.ONSTAIRSUP;
+            ONSTAIRSUP();
+            return true;
+        }
+        return false;
+
+    }
+
+    bool ToOnStairsDown()
+    {
+        if (Stairs.down == true && Stairs.up == false)
+        {
+            Debug.Log("Hola");
+            currentStates = STATES.ONSTAIRSDOWN;
+            ONSTAIRSDOWN();
+            return true;
+        }
+        return false;
+
     }
 
     private void TransformP(float mx)

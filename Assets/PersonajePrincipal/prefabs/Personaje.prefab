@@ -82,6 +82,7 @@ GameObject:
   - component: {fileID: 8404363579422456641}
   - component: {fileID: 8899029597461119395}
   - component: {fileID: 6639169154264579832}
+  - component: {fileID: 993259602843784053}
   m_Layer: 9
   m_Name: Personaje
   m_TagString: Player
@@ -262,6 +263,7 @@ MonoBehaviour:
     m_Bits: 128
   inputActionMapping: {fileID: -944628639613478452, guid: c8f2a005dae80a441b57da89c7b351c4, type: 3}
   raycastDistance: 0.35
+  Stairs: {fileID: 993259602843784053}
 --- !u!114 &8759992606825611553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,6 +351,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetoLatigo: {fileID: 5129189554443343019, guid: 044e677dee231bd488d3075ffef43d82, type: 3}
   puntSpawn: {fileID: 213581703354080178}
+--- !u!114 &993259602843784053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5472183057193172273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2033c50a6eaa08345a188f9e07a7b3d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stairMoveSpeed: 5
+  up: 0
+  down: 0
 --- !u!1 &6031980165173026245
 GameObject:
   m_ObjectHideFlags: 0

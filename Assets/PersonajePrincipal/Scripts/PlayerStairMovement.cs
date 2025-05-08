@@ -6,6 +6,9 @@ public class PlayerStairMovement : MonoBehaviour
 {
     public float stairMoveSpeed = 3f;
 
+    public bool up = false;
+    public bool down = false;
+
     private bool onStair = false;
     private bool isMoving = false;
 
@@ -41,18 +44,37 @@ public class PlayerStairMovement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.W) && !isMoving)
             {
+                up = true;
                 rb.velocity = Vector2.zero;
                 rb.gravityScale = 0f;
                 targetPoint = endPoint;
                 StartStairMovement();
+                if (endPoint.position.x > transform.position.x)
+                {
+                    gameObject.transform.rotation = Quaternion.AngleAxis(180, Vector3.up);
+                }
+                if (endPoint.position.x < transform.position.x)
+                {
+                    gameObject.transform.rotation = Quaternion.AngleAxis(0, Vector3.up);
+                }
+
             }
 
             if (Input.GetKey(KeyCode.S) && !isMoving)
             {
+                down = true;
                 rb.velocity = Vector2.zero;
                 rb.gravityScale = 0f;
                 targetPoint = startPoint;
                 StartStairMovement();
+                if (startPoint.position.x > transform.position.x)
+                {
+                    gameObject.transform.rotation = Quaternion.AngleAxis(180, Vector3.up);
+                }
+                if (startPoint.position.x < transform.position.x)
+                {
+                    gameObject.transform.rotation = Quaternion.AngleAxis(0, Vector3.up);
+                }
             }
         }
     }
@@ -66,11 +88,13 @@ public class PlayerStairMovement : MonoBehaviour
 
     private void EndStairMovement()
     {
+        up = false;
+        down = false;
         isMoving = false;
         targetPoint = null;
         rb.gravityScale = originalGravity;
         gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, -1f);
-        // NO desactivamos onStair aquí
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)

@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 762272773735050477}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 254.44522, y: 1.9231973, z: -0.0012676544}
+  m_LocalPosition: {x: 198.24852, y: -25.586178, z: -0.0012676544}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2170,7 +2170,7 @@ GameObject:
   - component: {fileID: 509671736878459792}
   - component: {fileID: 1221198728500040503}
   - component: {fileID: 7987877496515968226}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2454,7 +2454,7 @@ Tilemap:
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 2e4e50c0d37054846b734101ebab1a75, type: 2}
+    m_Data: {fileID: 11400000, guid: 55c57f83b93ad7a419e1f767f5130a4c, type: 2}
   - m_RefCount: 14
     m_Data: {fileID: 11400000, guid: f02be5f5fbe31594b99c124433303972, type: 2}
   - m_RefCount: 8
@@ -2465,7 +2465,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 5e2c900b63274fd4fb1a7a9c7aebddb0, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
-    m_Data: {fileID: 1505112355, guid: be01b11ace08241488a91c7e0ad52f41, type: 3}
+    m_Data: {fileID: 1682764126, guid: be01b11ace08241488a91c7e0ad52f41, type: 3}
   - m_RefCount: 14
     m_Data: {fileID: 178975437, guid: be01b11ace08241488a91c7e0ad52f41, type: 3}
   - m_RefCount: 8
@@ -2617,7 +2617,7 @@ GameObject:
   - component: {fileID: 5901726569123879274}
   - component: {fileID: 6339040179003402782}
   - component: {fileID: 7983361125049043551}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: plataforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
