@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Necesario para cargar escenas
+using UnityEngine.SceneManagement;
 
 public class TogglePauseMenu : MonoBehaviour
 {
-    public GameObject hud;
-    public GameObject pauseMenu;
+    public GameObject hud;          // Asigna aquí el HUD del juego (UI normal)
+    public GameObject pauseMenu;    // Asigna aquí el panel del menú de pausa
 
     private bool isPaused = false;
+
+
 
     void Update()
     {
@@ -21,8 +23,8 @@ public class TogglePauseMenu : MonoBehaviour
 
     void TogglePause(bool pause)
     {
-        hud.SetActive(!pause);
-        pauseMenu.SetActive(pause);
+        hud.SetActive(!pause);             // Oculta HUD si está en pausa
+        pauseMenu.SetActive(pause);        // Muestra menú si está en pausa
 
         if (pause)
         {
@@ -38,24 +40,27 @@ public class TogglePauseMenu : MonoBehaviour
         }
     }
 
-    //Llamado desde el botón "Resume"
+    // Este lo asignas al botón Resume
     public void ResumeGame()
     {
         isPaused = false;
         TogglePause(false);
     }
 
-    //Llamado desde el botón "Main Menu"
+    //Este lo asignas al botón Main Menu
     public void GoToMainMenu()
     {
-        Time.timeScale = 1f; // Importante: restaurar el tiempo antes de cambiar de escena
-        SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1f; // Muy importante restaurar el tiempo antes de cambiar de escena
+        SceneManager.LoadScene("MainMenu"); // Asegúrate de que la escena esté añadida en Build Settings
     }
 
-    //Llamado desde el botón "Quit"
+    // Este lo asignas al botón Quit
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("Quit Game"); // Esto solo se verá en el editor
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false; // Para que funcione en el editor
+#endif
     }
 }
