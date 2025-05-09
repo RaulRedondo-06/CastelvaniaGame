@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BatController : MonoBehaviour
@@ -10,7 +11,19 @@ public class BatController : MonoBehaviour
     public float frequency = 2f;            // Velocidad del latido
     public bool moveRight = true;           // Dirección inicial
 
+
+    public float health; //no fa falta q ni ho expliqui no? ;)
+    public float maxHealth; //vida maxima
+
+    public float scoreObtained; //puntuacio obtenida al matar-lo
+
     private float time;
+
+
+    void Start() 
+    {
+        maxHealth = health; // <-- vida del bat
+    }
 
     void Update()
     {
@@ -26,7 +39,25 @@ public class BatController : MonoBehaviour
 
         // Aplica el movimiento total
         transform.position += new Vector3(horizontal, vertical, 0);
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
+
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if (other.CompareTag("BULLET") || other.CompareTag("Latigo"))
+        {
+            Banck_acount.instance.Score(scoreObtained);
+            health -= 1;
+        }
+
+    }
+
 
     // Destruir al salir de la pantalla
     void OnBecameInvisible()

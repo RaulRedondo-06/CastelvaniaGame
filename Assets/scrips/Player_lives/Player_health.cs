@@ -8,8 +8,10 @@ public class Player_health : MonoBehaviour
     public float health;
     public float maxHealth;
     public bool respawn;
+    public float Death;
     public RespawnScript spawnScript;
     public Player_lives livesScript;
+    public static Player_lives instance;
 
     //per a la barra de vida
     public Image healthUI;
@@ -47,7 +49,7 @@ public class Player_health : MonoBehaviour
                     respawn = true;
                 }
                 */
-
+                Player_lives.instance.P_Live(Death);
                 respawn = true;
 
                 //respawn; //Player_lives.banck == 0
@@ -55,6 +57,8 @@ public class Player_health : MonoBehaviour
                 {
                     health = 100;
                     spawnScript.DeadPlayer();
+
+                    
                 }
             }
         }
