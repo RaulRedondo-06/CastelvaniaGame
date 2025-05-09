@@ -307,7 +307,7 @@ MonoBehaviour:
   health: 100
   maxHealth: 100
   respawn: 0
-  Death: 1
+  Death: 0
   spawnScript: {fileID: 8404363579422456641}
   livesScript: {fileID: 0}
   healthUI: {fileID: 0}

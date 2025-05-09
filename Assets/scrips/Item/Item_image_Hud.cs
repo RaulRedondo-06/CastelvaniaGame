@@ -33,7 +33,7 @@ public class Item_image_Hud : MonoBehaviour
         switch (arma) 
         {
             case PlayerWeaponSwich.TipoArma.Cuchillo:
-                component.sprite = empty;
+                component.sprite = knive;
                 break;
 
             case PlayerWeaponSwich.TipoArma.Hacha:
@@ -45,7 +45,7 @@ public class Item_image_Hud : MonoBehaviour
                 break;
 
             case PlayerWeaponSwich.TipoArma.Ninguna:
-                component.sprite = knive;
+                component.sprite = empty;
                 break;
         }
     }

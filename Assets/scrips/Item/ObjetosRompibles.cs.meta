@@ -3,7 +3,13 @@ guid: bc9bbff629eed314ea6e11b93227dcd7
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - objeto1: {fileID: 7849841809930020898, guid: 2393733d98aa3a24f8a3940dbe985f2b, type: 3}
+  - objeto2: {fileID: 3668159950074973352, guid: e325f309cc83b384cba477cb8cd3f749, type: 3}
+  - objeto3: {fileID: 4362626892430341807, guid: 93f669720879ee347aa4ec49485f1a0d, type: 3}
+  - objeto4: {fileID: 8298540540877734709, guid: 87f85cded3331bc45991b90717fb23e4, type: 3}
+  - objeto5: {fileID: 7888996270813629680, guid: 8eada7e17e539674eb6f23237d52736b, type: 3}
+  - puntSpawn: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -11,56 +11,96 @@ public class Player_health : MonoBehaviour
     public float Death;
     public RespawnScript spawnScript;
     public Player_lives livesScript;
-    public static Player_lives instance;
+    public static Player_health instance;
 
-    //per a la barra de vida
+    // Para la barra de vida
     public Image healthUI;
+
+    const string SAVEGAMEKEY_HEALTH = "SavedHealth";
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            maxHealth = 100f; // Establece el valor máximo de salud predeterminado
+            LoadHealth(); // Cargar salud guardada al iniciar
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        maxHealth = health;
+        if (health == 0) // Asegúrate de que la salud no sea 0 al inicio
+        {
+            health = maxHealth;
+        }
     }
 
     private void Update()
     {
-        healthUI.fillAmount = health / 100;
+        Debug.Log(health);
+        healthUI.fillAmount = health / maxHealth;
+        SaveHealth();
 
-        if (health> maxHealth) 
+        if (health > maxHealth)
         {
             health = maxHealth;
         }
+    }
+
+    public void LoadHealth()
+    {
+        health = PlayerPrefs.GetFloat(SAVEGAMEKEY_HEALTH, maxHealth);
+    }
+
+
+    public void SaveHealth()
+    {
+        PlayerPrefs.SetFloat(SAVEGAMEKEY_HEALTH, health);
+        PlayerPrefs.Save();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
         {
+
             health -= collision.GetComponent<death_zone>().damage;
 
-            if (health <= 0) 
+            if (health <= 0)
             {
-                /*if (livesScript.banck <= 0)
-                {
-                    respawn = false;
-                }
-                else 
-                {
-                    respawn = true;
-                }
-                */
                 Player_lives.instance.P_Live(Death);
                 respawn = true;
 
-                //respawn; //Player_lives.banck == 0
-                if (respawn == true) 
+                if (respawn)
                 {
-                    health = 100;
+                    health = maxHealth;
                     spawnScript.DeadPlayer();
 
-                    
                 }
             }
         }
+
+        if (collision.CompareTag("Hearth"))
+        {
+
+            health += 10;
+            if (health > maxHealth)
+                health = maxHealth;
+        }
+    }
+
+    public void FullRestore()
+    {
+        health = maxHealth;
+        SaveHealth();
+    }
+
+    public void ResetHealth(bool save = true)
+    {
+        health = PlayerPrefs.GetFloat(SAVEGAMEKEY_HEALTH, maxHealth);
+        PlayerPrefs.Save();
+        LoadHealth();
     }
 }
