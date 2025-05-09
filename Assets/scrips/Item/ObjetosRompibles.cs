@@ -24,9 +24,8 @@ public class ObjetosRompibles : MonoBehaviour
             Debug.Log(randomNumbre);
             if (romper > 0)
             {
-                if(romper == -(vida - 1))
+                if(romper == (10 - vida))
                 {
-                    Debug.Log(randomNumbre);
                     if (randomNumbre == 1)
                     {
                         Instantiate(objeto1, puntSpawn.position, puntSpawn.rotation);

@@ -11,7 +11,6 @@ TagManager:
   - Cuchillo
   - Turn
   - Stair
-  - Hearth
   layers:
   - Default
   - TransparentFX
