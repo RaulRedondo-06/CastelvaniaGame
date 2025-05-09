@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    public string sceneToLoad = "nivel_1"; // Cambia esto por el nombre de la escena a cargar
+    public string sceneToLoad = "Inset_Name"; // Cambia esto por el nombre de la escena a cargar
 
     void Update()
     {
