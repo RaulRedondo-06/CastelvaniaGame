@@ -1,0 +1,474 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8728021293435382960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7743266993701503916}
+  m_Layer: 0
+  m_Name: Cndelabro_1_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7743266993701503916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8728021293435382960}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 235.99995, y: -2.0289018, z: -22.707718}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7322248627974573072}
+  - {fileID: 7542015047387207032}
+  - {fileID: 2622721765370135630}
+  - {fileID: 4357839045082942261}
+  - {fileID: 371369705740055819}
+  - {fileID: 3664484551531589975}
+  - {fileID: 3753589480287796104}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &481190410674477078
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7743266993701503916}
+    m_Modifications:
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5500183
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9078195
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.907719
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779755431244287558, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_Name
+      value: Candelabro (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+--- !u!4 &371369705740055819 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+  m_PrefabInstance: {fileID: 481190410674477078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2877537835336542547
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7743266993701503916}
+    m_Modifications:
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.628983
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.1077645
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.907719
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779755431244287558, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_Name
+      value: Candelabro (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+--- !u!4 &2622721765370135630 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+  m_PrefabInstance: {fileID: 2877537835336542547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3553352949518031946
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7743266993701503916}
+    m_Modifications:
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.4913635
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.4045944
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.907719
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779755431244287558, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_Name
+      value: Candelabro (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+--- !u!4 &3664484551531589975 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+  m_PrefabInstance: {fileID: 3553352949518031946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4007565230637569685
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7743266993701503916}
+    m_Modifications:
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.104904
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9910982
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.907719
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779755431244287558, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_Name
+      value: Candelabro (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+--- !u!4 &3753589480287796104 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+  m_PrefabInstance: {fileID: 4007565230637569685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4607447827798730280
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7743266993701503916}
+    m_Modifications:
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.577057
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.993512
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.907719
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779755431244287558, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_Name
+      value: Candelabro (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+--- !u!4 &4357839045082942261 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+  m_PrefabInstance: {fileID: 4607447827798730280}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7356362481904492813
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7743266993701503916}
+    m_Modifications:
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.455078
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.121133
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.907719
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779755431244287558, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_Name
+      value: Candelabro
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+--- !u!4 &7322248627974573072 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+  m_PrefabInstance: {fileID: 7356362481904492813}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7719249336206620773
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7743266993701503916}
+    m_Modifications:
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.601913
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.2220242
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.907719
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779755431244287558, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+      propertyPath: m_Name
+      value: Candelabro (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+--- !u!4 &7542015047387207032 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 255252614770961693, guid: 784be0615daf64948bba584970b61cfc, type: 3}
+  m_PrefabInstance: {fileID: 7719249336206620773}
+  m_PrefabAsset: {fileID: 0}
