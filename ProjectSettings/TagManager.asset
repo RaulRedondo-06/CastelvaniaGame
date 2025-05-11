@@ -11,6 +11,9 @@ TagManager:
   - Cuchillo
   - Turn
   - Stair
+  - Hearth
+  - Boss
+  - Proyectiles_enemigos
   layers:
   - Default
   - TransparentFX
@@ -25,7 +28,7 @@ TagManager:
   - ObjetoRompible
   - Item
   - Enemy
-  - 
+  - Proyectiles_enemigos
   - 
   - 
   - 

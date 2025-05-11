@@ -82,6 +82,25 @@ public class Player_health : MonoBehaviour
             }
         }
 
+        if (collision.CompareTag("Proyectiles_enemigos"))
+        {
+
+            health -= 30;
+
+            if (health <= 0)
+            {
+                Player_lives.instance.P_Live(Death);
+                respawn = true;
+
+                if (respawn)
+                {
+                    health = maxHealth;
+                    spawnScript.DeadPlayer();
+
+                }
+            }
+        }
+
         if (collision.CompareTag("Hearth"))
         {
 
