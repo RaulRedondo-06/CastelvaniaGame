@@ -11,7 +11,7 @@ public class BossActivator : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log(spawnPoint.position);
+            FindObjectOfType<CameraShake>().Shake();
             Instantiate(bossPrefab, spawnPoint.position, Quaternion.identity);
             Destroy(gameObject);
         }

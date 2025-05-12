@@ -5,8 +5,13 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
 
-    public float moveSpeed = 5f; 
+    public float moveSpeed = 5f;
+    public float timeToDestroy = 5f;
 
+    private void Start()
+    {
+        Destroy(gameObject, timeToDestroy);
+    }
     private void Update()
     {
 

@@ -1180,6 +1180,7 @@ GameObject:
   - component: {fileID: 1421801639531490492}
   - component: {fileID: 4323741669170114757}
   - component: {fileID: 2674031951471760727}
+  - component: {fileID: 8074090467697413925}
   m_Layer: 5
   m_Name: Item
   m_TagString: Untagged
@@ -1245,6 +1246,23 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!114 &2674031951471760727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629172665293426996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105449025a947fd4c8f43c5da9143b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  empty: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  axe: {fileID: -168803205, guid: dca4329bae9c5564abc652ef5e80de7f, type: 3}
+  whip: {fileID: 1069611604, guid: dca4329bae9c5564abc652ef5e80de7f, type: 3}
+  knive: {fileID: 11160337, guid: dca4329bae9c5564abc652ef5e80de7f, type: 3}
+  item: {fileID: 0}
+--- !u!114 &8074090467697413925
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3858,10 +3876,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 7482667652216324306, guid: 05fa9b25852a4504d84e3cbed2086664, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
