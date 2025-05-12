@@ -7,6 +7,6 @@ public class CambiarEscena : MonoBehaviour
 {
     public void Cambiar()
     {
-        SceneManager.LoadScene("nivel_1"); // Reemplaza con el nombre real
+        SceneManager.LoadScene("Intro"); // Reemplaza con el nombre real
     }
 }
