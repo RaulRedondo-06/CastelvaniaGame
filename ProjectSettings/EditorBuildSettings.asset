@@ -12,18 +12,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Inset_Name.unity
     guid: 6241e2dfbdbc25a42b8106cc295019d5
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: d5aefd14573eacd49900a1394581f4a3
+  - enabled: 1
     path: Assets/Scenes/nivel_1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: e7225edab87495f478bb67a1eb362252
   - enabled: 1
     path: Assets/Scenes/nivel_2.unity
-    guid: 7ec043e5821dd33499f1a28f674c2a1d
+    guid: 0c53128fa6157904b94db674d9d75f24
   - enabled: 1
     path: Assets/Scenes/nivel_3.unity
-    guid: 3742ac14e117d1d4e848e0156fa0d417
+    guid: dd087bb3aca051b4cb4c8598733116dd
   - enabled: 1
     path: Assets/Scenes/nivel_4.unity
-    guid: 1a11c47c3affe6b428e8cb28e96dcac7
+    guid: 33a2216d4ec389f498f20ecc4f9fafa7
   - enabled: 1
     path: Assets/Scenes/nivel_5.unity
-    guid: 2fa9df4b3c4adf641b29ccfb892441b1
+    guid: c582016bab6730544b6261ebc1a878fd
   m_configObjects: {}

@@ -93,4 +93,3 @@ MonoBehaviour:
   banckCo: {fileID: 0}
   timerCo: {fileID: 0}
   health: {fileID: 0}
-  weapon: {fileID: 0}

@@ -532,6 +532,28 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4718dce2542fd70439b9fd4ac9f4e5bf, type: 3}
+--- !u!114 &1850779787 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7591223482743842055, guid: 4718dce2542fd70439b9fd4ac9f4e5bf, type: 3}
+  m_PrefabInstance: {fileID: 1850779786}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5475e943f72084d88578e0d43086c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1850779793 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8759992606825611553, guid: 4718dce2542fd70439b9fd4ac9f4e5bf, type: 3}
+  m_PrefabInstance: {fileID: 1850779786}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c42bd4287c9bb4197b199ded5137dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2061143139 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 774197709921278994, guid: 4718dce2542fd70439b9fd4ac9f4e5bf, type: 3}
@@ -585,6 +607,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2674031951471760727, guid: 60a8806f0bd784f4b9a8687fe8fda1ba, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 1850779793}
     - target: {fileID: 4947102977031770059, guid: 60a8806f0bd784f4b9a8687fe8fda1ba, type: 3}
       propertyPath: m_Name
       value: HUD
@@ -640,6 +666,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1069264514174061574, guid: c5e78714a8aa15b4f9cb0b8cc2181e59, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 1850779787}
     - target: {fileID: 1069264514174061574, guid: c5e78714a8aa15b4f9cb0b8cc2181e59, type: 3}
       propertyPath: banckCo
       value: 
