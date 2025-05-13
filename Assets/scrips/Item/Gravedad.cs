@@ -18,9 +18,12 @@ public class Gravedad : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Floor"))
         {
             Debug.Log("Colisión con Floor detectada.");
+
             _rigidbody.gravityScale = 0;
             _rigidbody.mass = 0;
-            _rigidbody.velocity = Vector3.zero;
+            Vector2 currentVelocity = _rigidbody.velocity;
+            _rigidbody.velocity = new Vector2(currentVelocity.x, 0f);
         }
     }
+
 }

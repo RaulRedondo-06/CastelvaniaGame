@@ -79,10 +79,10 @@ GameObject:
   - component: {fileID: 8759992606825611553}
   - component: {fileID: 3053645411189056498}
   - component: {fileID: 7591223482743842055}
-  - component: {fileID: 8404363579422456641}
   - component: {fileID: 8899029597461119395}
   - component: {fileID: 6639169154264579832}
   - component: {fileID: 993259602843784053}
+  - component: {fileID: 7697571695079887236}
   m_Layer: 9
   m_Name: Personaje
   m_TagString: Player
@@ -308,23 +308,9 @@ MonoBehaviour:
   maxHealth: 100
   respawn: 0
   Death: 0
-  spawnScript: {fileID: 8404363579422456641}
+  spawnScript: {fileID: 7697571695079887236}
   livesScript: {fileID: 0}
   healthUI: {fileID: 0}
---- !u!114 &8404363579422456641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5472183057193172273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 769d78386ffef07409f39a5958344098, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  posRespawn: {fileID: 0}
-  posPlayer: {fileID: 3142916212260368561}
 --- !u!114 &8899029597461119395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,6 +354,20 @@ MonoBehaviour:
   stairMoveSpeed: 5
   up: 0
   down: 0
+--- !u!114 &7697571695079887236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5472183057193172273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05925e8ed21b8a042ad3681405d9e0d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posRespawn: {fileID: 0}
+  posPlayer: {fileID: 3142916212260368561}
 --- !u!1 &6031980165173026245
 GameObject:
   m_ObjectHideFlags: 0
