@@ -4,24 +4,18 @@ using UnityEngine;
 using UnityEngine.WSA;
 
 
-public class Aparicion_Latigo : MonoBehaviour
+public class Aparicion_Latigo : ArmasEnPantalla
 {
-    private float time;
-
-    void Update()
+    protected override void Update()
     {
         time += Time.deltaTime;
 
         if (time > 0.5)
         {
             
-            Destroy(gameObject, 0f);  // Destruye al siguiente frame
+            Destroy(gameObject, 0f); 
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Destroy(gameObject, 0f);  // Destruye al siguiente frame
-    }
 }
 

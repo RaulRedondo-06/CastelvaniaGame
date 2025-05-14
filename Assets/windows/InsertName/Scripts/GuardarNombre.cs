@@ -38,7 +38,7 @@ public class GuardarNombre: MonoBehaviour
 
         PlayerPrefs.SetString("nombre", inputText.text);
         PlayerPrefs.Save();
-        Debug.Log(inputText.text);
+
         SceneManager.LoadScene("Intro");
     }
 }
