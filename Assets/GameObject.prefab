@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5929289270068269753
+--- !u!1 &394634902274931036
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,52 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6720643258191671421}
-  - component: {fileID: 610760554445943121}
-  - component: {fileID: 774129590202748882}
+  - component: {fileID: 5024165071806142849}
+  - component: {fileID: 2914823675170381691}
+  - component: {fileID: 7171494388490140614}
+  - component: {fileID: 6533395585204933250}
+  - component: {fileID: 632767804383836003}
   m_Layer: 0
-  m_Name: SpawnPez
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6720643258191671421
+--- !u!4 &5024165071806142849
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5929289270068269753}
+  m_GameObject: {fileID: 394634902274931036}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 204.13, y: -30.39, z: -1.1326486}
-  m_LocalScale: {x: 1, y: 13.287, z: 1}
+  m_LocalPosition: {x: 25.87, y: -4.6, z: -0.04221003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3767713054813469806}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &610760554445943121
+--- !u!114 &2914823675170381691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394634902274931036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010a9c0f707657746b69fb6654befa4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &7171494388490140614
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5929289270068269753}
+  m_GameObject: {fileID: 394634902274931036}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -79,48 +92,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &774129590202748882
+--- !u!114 &6533395585204933250
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5929289270068269753}
+  m_GameObject: {fileID: 394634902274931036}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae08357d13fcfba45940465407d1666a, type: 3}
+  m_Script: {fileID: 11500000, guid: 78113ef56d70ccd4fa33acfb90248aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pezPrefab: {fileID: 5483932951067024579, guid: 8758944c96896a44997ad2c07c7fa683, type: 3}
-  spawnPoint: {fileID: 3767713054813469806}
---- !u!1 &8864389811661505556
-GameObject:
+  timer: {fileID: 0}
+  banck: {fileID: 0}
+  lives: {fileID: 0}
+--- !u!114 &632767804383836003
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3767713054813469806}
-  m_Layer: 0
-  m_Name: spawnPezSitio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3767713054813469806
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8864389811661505556}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.38, y: -0.404, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6720643258191671421}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 394634902274931036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fd599d7b08016468b246eac75d6ebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  info: {fileID: 0}

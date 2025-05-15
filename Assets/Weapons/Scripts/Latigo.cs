@@ -3,9 +3,19 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Latigo : Armas
+public class Latigo : MonoBehaviour
 {
+    public GameObject objetoLatigo;
+    public Transform puntSpawn;
     private float cooldown = 0.74f;
+    private float time;
+
+    private PlayerWeaponSwich arma;
+
+    private void Start()
+    {
+        arma = GetComponent<PlayerWeaponSwich>();
+    }
 
     private void Update()
     {
@@ -16,11 +26,15 @@ public class Latigo : Armas
             {
                 if (time > cooldown)
                 {
-                    Instantiate(objeto, puntSpawn.position, puntSpawn.rotation);
+                    Instantiate(objetoLatigo, puntSpawn.position, puntSpawn.rotation);
                     ResetCooldown();
                     Debug.Log("Latigo");
                 }
             }
         }
+    }
+    public void ResetCooldown()
+    {
+        time = 0f;
     }
 }

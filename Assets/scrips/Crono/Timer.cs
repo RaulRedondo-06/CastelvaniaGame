@@ -7,7 +7,7 @@ using static Unity.Collections.AllocatorManager;
 public class Timer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI txt;
-    [SerializeField] private float time;
+    [SerializeField] public float time;
 
     const string SAVEGAMEKEY_TIME = "SavedTime";
 

@@ -3,10 +3,20 @@ using System.Collections.Generic;
 using Unity.Burst.Intrinsics;
 using UnityEngine;
 
-public class Hacha : Armas
+public class Hacha : MonoBehaviour
 {
+    public GameObject objetoLatigo;
+    public Transform puntSpawn;
     private float cooldown = 0.74f;
-    
+    private float time;
+
+    private PlayerWeaponSwich arma;
+    private void Start()
+    {
+        arma = GetComponent<PlayerWeaponSwich>();
+    }
+
+    // Update is called once per frame
     private void Update()
     {
         time += Time.deltaTime;
@@ -16,12 +26,16 @@ public class Hacha : Armas
             {
                 if (time > cooldown)
                 {
-                    Instantiate(objeto, puntSpawn.position, puntSpawn.rotation);
+                    Instantiate(objetoLatigo, puntSpawn.position, puntSpawn.rotation);
                     ResetCooldown();
                     Debug.Log("Hacha");
                 }
             }
         }
+    }
+    public void ResetCooldown()
+    {
+        time = 0f;
     }
 
 }
