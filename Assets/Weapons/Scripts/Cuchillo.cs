@@ -2,19 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cuchillo : MonoBehaviour
+public class Cuchillo : Armas
 {
-    public GameObject objetoCuchillo;
-    public Transform puntSpawn;
     private float cooldown = 0.50f;
-    private float time;
-
-    private PlayerWeaponSwich arma;
-
-    private void Start()
-    {
-        arma = GetComponent<PlayerWeaponSwich>();
-    }
 
     private void Update()
     {
@@ -25,7 +15,7 @@ public class Cuchillo : MonoBehaviour
             {
                 if (time > cooldown)
                 {
-                    Instantiate(objetoCuchillo, puntSpawn.position, puntSpawn.rotation);
+                    Instantiate(objeto, puntSpawn.position, puntSpawn.rotation);
                     ResetCooldown();
                     Debug.Log("Cuchillo");
                 }
@@ -33,8 +23,4 @@ public class Cuchillo : MonoBehaviour
         }
     }
 
-    public void ResetCooldown()
-    {
-        time = 0f;
-    }
 }
