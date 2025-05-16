@@ -90,3 +90,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c13e4c74b5eede4cb8d2c5d1806bde5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transitionSound: {fileID: 8300000, guid: 755bead4d04e6bd468cc8d26a91f177a, type: 3}
