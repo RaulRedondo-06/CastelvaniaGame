@@ -122,6 +122,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &2687592 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7871530685090331655, guid: ac7231edbd7cc024d998788af756f99a, type: 3}
+  m_PrefabInstance: {fileID: 1488744193}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2058fa16b704c47bb71d1908c020d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &311996212
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,6 +272,14 @@ PrefabInstance:
     - target: {fileID: 648484388609396525, guid: b7d09a44a05b8f34083f9c6464133e30, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209936012233890889, guid: b7d09a44a05b8f34083f9c6464133e30, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2687592}
+    - target: {fileID: 2209936012233890889, guid: b7d09a44a05b8f34083f9c6464133e30, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: aceptar
       objectReference: {fileID: 0}
     - target: {fileID: 7871660841574373010, guid: b7d09a44a05b8f34083f9c6464133e30, type: 3}
       propertyPath: m_Name
