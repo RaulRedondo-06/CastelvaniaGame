@@ -79,7 +79,6 @@ GameObject:
   - component: {fileID: 8759992606825611553}
   - component: {fileID: 3053645411189056498}
   - component: {fileID: 7591223482743842055}
-  - component: {fileID: 8404363579422456641}
   - component: {fileID: 8899029597461119395}
   - component: {fileID: 6639169154264579832}
   - component: {fileID: 993259602843784053}
@@ -290,7 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e56d80999551a4ca001da90242eeed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoCuchillo: {fileID: 2256948382804732168, guid: 9c85ca215978e354b8c92bfea8eef12b, type: 3}
+  objeto: {fileID: 2256948382804732168, guid: 9c85ca215978e354b8c92bfea8eef12b, type: 3}
   puntSpawn: {fileID: 213581703354080178}
 --- !u!114 &7591223482743842055
 MonoBehaviour:
@@ -308,23 +307,9 @@ MonoBehaviour:
   maxHealth: 100
   respawn: 0
   Death: 0
-  spawnScript: {fileID: 8404363579422456641}
+  spawnScript: {fileID: 0}
   livesScript: {fileID: 0}
   healthUI: {fileID: 0}
---- !u!114 &8404363579422456641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5472183057193172273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 769d78386ffef07409f39a5958344098, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  posRespawn: {fileID: 0}
-  posPlayer: {fileID: 3142916212260368561}
 --- !u!114 &8899029597461119395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,7 +322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccaf765c8cf6ec1429d3990f0d5e4be0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoLatigo: {fileID: 7561090470150733573, guid: 86d77688288df9745b80f9282cf22454, type: 3}
+  objeto: {fileID: 7561090470150733573, guid: 86d77688288df9745b80f9282cf22454, type: 3}
   puntSpawn: {fileID: 5894446071404550394}
 --- !u!114 &6639169154264579832
 MonoBehaviour:
@@ -351,7 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3d60d6f7e9406443b844e0d44900795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoLatigo: {fileID: 5129189554443343019, guid: 044e677dee231bd488d3075ffef43d82, type: 3}
+  objeto: {fileID: 5129189554443343019, guid: 044e677dee231bd488d3075ffef43d82, type: 3}
   puntSpawn: {fileID: 213581703354080178}
 --- !u!114 &993259602843784053
 MonoBehaviour:

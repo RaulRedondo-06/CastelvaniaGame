@@ -412,11 +412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1277828287 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4459288281330707484, guid: 77c71447fb3abfc448d1e54a7bb7b5d4, type: 3}
-  m_PrefabInstance: {fileID: 7578683804599422727}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1760625248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -482,6 +477,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3053645411189056498, guid: 4718dce2542fd70439b9fd4ac9f4e5bf, type: 3}
+      propertyPath: objeto
+      value: 
+      objectReference: {fileID: 2256948382804732168, guid: 9c85ca215978e354b8c92bfea8eef12b, type: 3}
     - target: {fileID: 3142916212260368561, guid: 4718dce2542fd70439b9fd4ac9f4e5bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.51
@@ -526,6 +525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Personaje
       objectReference: {fileID: 0}
+    - target: {fileID: 6639169154264579832, guid: 4718dce2542fd70439b9fd4ac9f4e5bf, type: 3}
+      propertyPath: objeto
+      value: 
+      objectReference: {fileID: 5129189554443343019, guid: 044e677dee231bd488d3075ffef43d82, type: 3}
     - target: {fileID: 7591223482743842055, guid: 4718dce2542fd70439b9fd4ac9f4e5bf, type: 3}
       propertyPath: healthUI
       value: 
@@ -534,10 +537,14 @@ PrefabInstance:
       propertyPath: livesScript
       value: 
       objectReference: {fileID: 3251366581206917776}
-    - target: {fileID: 8404363579422456641, guid: 4718dce2542fd70439b9fd4ac9f4e5bf, type: 3}
-      propertyPath: posRespawn
+    - target: {fileID: 7591223482743842055, guid: 4718dce2542fd70439b9fd4ac9f4e5bf, type: 3}
+      propertyPath: spawnScript
       value: 
-      objectReference: {fileID: 1277828287}
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899029597461119395, guid: 4718dce2542fd70439b9fd4ac9f4e5bf, type: 3}
+      propertyPath: objeto
+      value: 
+      objectReference: {fileID: 7561090470150733573, guid: 86d77688288df9745b80f9282cf22454, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
