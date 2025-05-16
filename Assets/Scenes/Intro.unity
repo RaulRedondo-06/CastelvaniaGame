@@ -170,6 +170,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1663075012584115144, guid: 906d0972a5875cd4396c59bff2414a73, type: 3}
+      propertyPath: m_Volume
+      value: 0.116
+      objectReference: {fileID: 0}
     - target: {fileID: 7374027250859339724, guid: 906d0972a5875cd4396c59bff2414a73, type: 3}
       propertyPath: m_Name
       value: Nivel_1_Musica
