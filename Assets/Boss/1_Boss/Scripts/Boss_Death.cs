@@ -2,12 +2,14 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class Boss_Death : MonoBehaviour
 {
     [Header("Configuración de Vida")]
     [SerializeField] private float vida = 10f;
     [SerializeField] private float romper = 0f;
     private float maxHealth;
+    private GameObject key;
 
     [Header("Muerte del Enemigo")]
     [SerializeField] private GameObject deathPrefab;
@@ -18,6 +20,7 @@ public class Boss_Death : MonoBehaviour
     private void Awake()
     {
         maxHealth = vida;
+        key = GameObject.Find("Key");
     }
 
     private void Start()
@@ -44,18 +47,19 @@ public class Boss_Death : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Weapon"))
         {
             vida = Mathf.Max(0, vida - 1); 
-            Debug.Log($"Vida del jefe: {vida}");
 
             if (romper > 0 && romper == -(vida - 1))
             {
                 Instantiate(deathPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
+                Destroy(key);
             }
 
             if (vida <= 0)
             {
                 Instantiate(deathPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
+                Destroy(key);
             }
 
             UpdateHealthBar();

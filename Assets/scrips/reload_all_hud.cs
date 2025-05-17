@@ -13,6 +13,7 @@ public class reload_all_hud : MonoBehaviour
     {
         banckCo.ResetMoney();
         timerCo.ResetTime();
+
         PlayerWeaponSwich b = FindObjectOfType<PlayerWeaponSwich>();
         b.armaActual = PlayerWeaponSwich.TipoArma.Ninguna;
         health.health = health.maxHealth;
