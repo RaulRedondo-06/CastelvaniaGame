@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1003970991181347735}
   - component: {fileID: 8293255755635873256}
   - component: {fileID: 7612219518861865586}
+  - component: {fileID: 2355192668208037713}
   - component: {fileID: 8779532525792345111}
   - component: {fileID: 8112919017721858160}
   - component: {fileID: 5387798691479902595}
@@ -123,6 +124,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2355192668208037713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362626892430341807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b85b37090491e4681c7c0c555891da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageBoost: 0
+  sonidoCuchillo: {fileID: 8300000, guid: cc193dec178d5c34b86c81eee51641b9, type: 3}
+  volumen: 1
 --- !u!114 &8779532525792345111
 MonoBehaviour:
   m_ObjectHideFlags: 0

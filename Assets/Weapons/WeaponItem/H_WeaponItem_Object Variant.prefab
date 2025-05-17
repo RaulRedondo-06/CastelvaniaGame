@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 2739725685627815912}
   - component: {fileID: 3924419765934049677}
   - component: {fileID: 5894568522295389133}
-  - component: {fileID: 8575808997542228589}
   - component: {fileID: 4498047098212207835}
+  - component: {fileID: 6225688107534573095}
   - component: {fileID: 4790850973634127371}
   m_Layer: 11
   m_Name: H_WeaponItem_Object Variant
@@ -150,18 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9013ee42c11c861478d6d07e924e0ed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8575808997542228589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8298540540877734709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f328b489e57f514484d5f72da9ed8e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4498047098212207835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,6 +162,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9013ee42c11c861478d6d07e924e0ed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6225688107534573095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8298540540877734709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b85b37090491e4681c7c0c555891da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageBoost: 0
+  sonidoCuchillo: {fileID: 8300000, guid: cc193dec178d5c34b86c81eee51641b9, type: 3}
+  volumen: 1
 --- !u!50 &4790850973634127371
 Rigidbody2D:
   serializedVersion: 4

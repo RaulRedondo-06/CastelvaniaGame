@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6637918861053329864}
   - component: {fileID: 2515227885241495479}
   - component: {fileID: 4059004502090729517}
+  - component: {fileID: 5242931753084212940}
   - component: {fileID: 2893378128851043912}
   - component: {fileID: 5736662606531650568}
-  - component: {fileID: -1634126957151896152}
   - component: {fileID: -2580223602764460471}
   m_Layer: 11
   m_Name: C_WeaponItem_Object
@@ -124,6 +124,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5242931753084212940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7888996270813629680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b85b37090491e4681c7c0c555891da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageBoost: 0
+  sonidoCuchillo: {fileID: 8300000, guid: cc193dec178d5c34b86c81eee51641b9, type: 3}
+  volumen: 1
 --- !u!114 &2893378128851043912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,18 +162,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9013ee42c11c861478d6d07e924e0ed6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &-1634126957151896152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7888996270813629680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f328b489e57f514484d5f72da9ed8e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!50 &-2580223602764460471
