@@ -6,6 +6,7 @@ using UnityEngine;
 public class Latigo : Armas
 {
     private float cooldown = 0.74f;
+    public AudioClip sonidoLatigo;
 
     private void Update()
     {
@@ -17,6 +18,7 @@ public class Latigo : Armas
                 if (time > cooldown)
                 {
                     Instantiate(objeto, puntSpawn.position, puntSpawn.rotation);
+                    AudioSource.PlayClipAtPoint(sonidoLatigo, puntSpawn.position);
                     ResetCooldown();
                     Debug.Log("Latigo");
                 }

@@ -291,6 +291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objeto: {fileID: 2256948382804732168, guid: 9c85ca215978e354b8c92bfea8eef12b, type: 3}
   puntSpawn: {fileID: 213581703354080178}
+  sonidoLatigo: {fileID: 8300000, guid: d162ba6ba274ae243a666fca8797b880, type: 3}
 --- !u!114 &7591223482743842055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,6 +325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objeto: {fileID: 7561090470150733573, guid: 86d77688288df9745b80f9282cf22454, type: 3}
   puntSpawn: {fileID: 5894446071404550394}
+  sonidoLatigo: {fileID: 8300000, guid: d162ba6ba274ae243a666fca8797b880, type: 3}
 --- !u!114 &6639169154264579832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,6 +340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objeto: {fileID: 5129189554443343019, guid: 044e677dee231bd488d3075ffef43d82, type: 3}
   puntSpawn: {fileID: 213581703354080178}
+  sonidoLatigo: {fileID: 8300000, guid: d162ba6ba274ae243a666fca8797b880, type: 3}
 --- !u!114 &993259602843784053
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Cuchillo : Armas
 {
     private float cooldown = 0.50f;
+    public AudioClip sonidoLatigo;
 
     private void Update()
     {
@@ -16,6 +17,7 @@ public class Cuchillo : Armas
                 if (time > cooldown)
                 {
                     Instantiate(objeto, puntSpawn.position, puntSpawn.rotation);
+                    AudioSource.PlayClipAtPoint(sonidoLatigo, puntSpawn.position);
                     ResetCooldown();
                     Debug.Log("Cuchillo");
                 }
