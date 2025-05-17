@@ -17,6 +17,11 @@ public class Boss_Death : MonoBehaviour
     [Header("UI")]
     [SerializeField] private Image enemyHealthBar;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip sonidoDaño;
+    [SerializeField] private AudioClip sonidoMuerte;
+    [SerializeField] private float volumen = 1f;
+
     private void Awake()
     {
         maxHealth = vida;
@@ -46,10 +51,19 @@ public class Boss_Death : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Weapon"))
         {
+            if (sonidoDaño != null && vida > 0)
+            {
+                AudioSource.PlayClipAtPoint(sonidoDaño, transform.position, volumen);
+            }
+
             vida = Mathf.Max(0, vida - 1); 
 
             if (romper > 0 && romper == -(vida - 1))
             {
+                if (sonidoMuerte != null)
+                {
+                    AudioSource.PlayClipAtPoint(sonidoMuerte, transform.position, volumen);
+                }
                 Instantiate(deathPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
                 Destroy(key);
@@ -57,6 +71,10 @@ public class Boss_Death : MonoBehaviour
 
             if (vida <= 0)
             {
+                if (sonidoMuerte != null)
+                {
+                    AudioSource.PlayClipAtPoint(sonidoMuerte, transform.position, volumen);
+                }
                 Instantiate(deathPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
                 Destroy(key);

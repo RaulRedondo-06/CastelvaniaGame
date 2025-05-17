@@ -220,3 +220,6 @@ MonoBehaviour:
   romper: 1
   deathPrefab: {fileID: 2639211169818904278, guid: 2dbbab1c96b84864a9d8b9ad810cba99, type: 3}
   enemyHealthBar: {fileID: 0}
+  "sonidoDa\xF1o": {fileID: 8300000, guid: bb66e33932878d24ea7986f74913d645, type: 3}
+  sonidoMuerte: {fileID: 8300000, guid: 0dd09460f8a90354b9815c7d5f30072d, type: 3}
+  volumen: 1
