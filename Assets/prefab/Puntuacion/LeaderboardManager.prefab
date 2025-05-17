@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5603651978324216995}
   - component: {fileID: 5037589833187589937}
   - component: {fileID: 4554552070532926635}
+  - component: {fileID: 6358254099289742950}
   m_Layer: 0
   m_Name: LeaderboardManager
   m_TagString: Untagged
@@ -65,3 +66,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leaderboardUI: {fileID: 5037589833187589937}
+--- !u!114 &6358254099289742950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7744039474468265625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57b152fa18ae1743b73e608a7988d2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 0}
