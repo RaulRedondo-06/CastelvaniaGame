@@ -108,6 +108,8 @@ MonoBehaviour:
   health: 1
   maxHealth: 1
   scoreObtained: 500
+  sonidoMuerte: {fileID: 8300000, guid: db2950ce84bda3a44b953505d55afe2e, type: 3}
+  volumen: 1
 --- !u!95 &6461150722314354083
 Animator:
   serializedVersion: 5

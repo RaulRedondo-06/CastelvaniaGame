@@ -16,6 +16,8 @@ public class BatController : MonoBehaviour
     public float maxHealth; //vida maxima
 
     public float scoreObtained; //puntuacio obtenida al matar-lo
+    public AudioClip sonidoMuerte;
+    public float volumen = 1f;
 
     private float time;
 
@@ -42,6 +44,10 @@ public class BatController : MonoBehaviour
 
         if (health <= 0)
         {
+            if (sonidoMuerte != null)
+            {
+                AudioSource.PlayClipAtPoint(sonidoMuerte, transform.position, volumen);
+            }
             Destroy(gameObject);
         }
     }

@@ -8,6 +8,8 @@ public class ZombieMovement : MonoBehaviour
     public float speed = 2f;
     public float health;
     public float maxHealth;
+    public AudioClip sonidoMuerte;
+    public float volumen = 1f;
 
     public float scoreObtained;
     private int direction = 1;
@@ -27,6 +29,10 @@ public class ZombieMovement : MonoBehaviour
 
         if (health <= 0)
         {
+            if (sonidoMuerte != null)
+            {
+                AudioSource.PlayClipAtPoint(sonidoMuerte, transform.position, volumen);
+            }
             Destroy(gameObject);
         }
     }
