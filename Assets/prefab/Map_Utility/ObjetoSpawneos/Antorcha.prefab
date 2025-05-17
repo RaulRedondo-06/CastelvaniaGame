@@ -173,3 +173,5 @@ MonoBehaviour:
   objeto4: {fileID: 8298540540877734709, guid: 87f85cded3331bc45991b90717fb23e4, type: 3}
   objeto5: {fileID: 7888996270813629680, guid: 8eada7e17e539674eb6f23237d52736b, type: 3}
   puntSpawn: {fileID: 907295804912530637}
+  "sonidoDa\xF1o": {fileID: 8300000, guid: 8c2aa7923a38b2e4d82c6c741a6feac0, type: 3}
+  volumen: 1

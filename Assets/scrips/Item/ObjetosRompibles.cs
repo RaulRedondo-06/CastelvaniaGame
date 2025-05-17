@@ -15,11 +15,19 @@ public class ObjetosRompibles : MonoBehaviour
     public GameObject objeto5;
     public Transform puntSpawn;
 
+    [SerializeField] private AudioClip sonidoDaño;
+    [SerializeField] private float volumen = 1f;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         int randomNumbre = Random.Range(0, 5)+1;
         if (collision.gameObject.layer == LayerMask.NameToLayer("Weapon"))
         {
+            if (sonidoDaño != null)
+            {
+                AudioSource.PlayClipAtPoint(sonidoDaño, transform.position, volumen);
+            }
+
             vida--;
             Debug.Log(randomNumbre);
             if (romper > 0)
