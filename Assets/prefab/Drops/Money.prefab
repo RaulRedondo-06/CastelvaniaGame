@@ -173,6 +173,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreObtained: 1000
+  sonidoRecogerDinero: {fileID: 8300000, guid: cc193dec178d5c34b86c81eee51641b9, type: 3}
+  volumen: 1
 --- !u!114 &8137350909978581098
 MonoBehaviour:
   m_ObjectHideFlags: 0
