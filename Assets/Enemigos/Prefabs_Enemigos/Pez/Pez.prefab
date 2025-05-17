@@ -240,3 +240,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 1
   romper: 1
+  sonidoMuerte: {fileID: 8300000, guid: bb66e33932878d24ea7986f74913d645, type: 3}
+  volumen: 1

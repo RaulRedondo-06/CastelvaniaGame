@@ -7,6 +7,9 @@ public class Muerte : MonoBehaviour
 {
     [SerializeField] private float vida = 10f;
     [SerializeField] private float romper = 0f;
+    public AudioClip sonidoMuerte;
+    public float volumen = 1f;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Weapon"))
@@ -21,6 +24,10 @@ public class Muerte : MonoBehaviour
 
             if (vida <= 0)
             {
+                if (sonidoMuerte != null)
+                {
+                    AudioSource.PlayClipAtPoint(sonidoMuerte, transform.position, volumen);
+                }
                 Destroy(gameObject);
             }
         }
