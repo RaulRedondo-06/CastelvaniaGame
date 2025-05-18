@@ -8,7 +8,7 @@ public class LeaderboardFetcher : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(GetRequest("http://localhost:8081/top6"));
+        StartCoroutine(GetRequest("http://localhost:8086/top6"));
     }
 
     IEnumerator GetRequest(string url)

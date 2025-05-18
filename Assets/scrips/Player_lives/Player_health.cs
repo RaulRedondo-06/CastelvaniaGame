@@ -65,11 +65,12 @@ public class Player_health : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-
             health -= collision.GetComponent<death_zone>().damage;
 
             if (health <= 0)
             {
+                Banck_acount.instance.RemoveMoney(100); // Restar puntos
+
                 Player_lives.instance.P_Live(Death);
                 respawn = true;
 
@@ -77,18 +78,18 @@ public class Player_health : MonoBehaviour
                 {
                     health = maxHealth;
                     spawnScript.DeadPlayer();
-
                 }
             }
         }
 
         if (collision.CompareTag("Proyectiles_enemigos"))
         {
-
             health -= 30;
 
             if (health <= 0)
             {
+                Banck_acount.instance.RemoveMoney(100); // Restar puntos
+
                 Player_lives.instance.P_Live(Death);
                 respawn = true;
 
@@ -96,19 +97,18 @@ public class Player_health : MonoBehaviour
                 {
                     health = maxHealth;
                     spawnScript.DeadPlayer();
-
                 }
             }
         }
 
         if (collision.CompareTag("Hearth"))
         {
-
             health += 10;
             if (health > maxHealth)
                 health = maxHealth;
         }
     }
+
 
     public void FullRestore()
     {

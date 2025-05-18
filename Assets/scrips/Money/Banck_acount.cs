@@ -71,5 +71,14 @@ public class Banck_acount : MonoBehaviour
         Score_txt.text = banck.ToString();
 
     }
+    public void RemoveMoney(int amount)
+    {
+        banck -= amount;
+        if (banck < 0) banck = 0; // Evita valores negativos
+        SaveMoney(); // Guarda los cambios
+        UpdateUI();  // Actualiza la interfaz
+    }
+
+
 
 }

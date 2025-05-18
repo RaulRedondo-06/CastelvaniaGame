@@ -9,7 +9,7 @@ public class MongoConnector : MonoBehaviour
 
     void Start()
     {
-        string connectionString = "mongodb+srv://Raul:raul%2E2006@castelvania.4zxc1vb.mongodb.net/?retryWrites=true&w=majority&appName=Castelvania";
+        string connectionString = "mongodb+srv://Raul:raul%2E2006@castlevaniacluster.pp8gjpl.mongodb.net/?retryWrites=true&w=majority&appName=CastlevaniaCluster";
         client = new MongoClient(connectionString);
 
         // Cambia "CastelvaniaDB" por el nombre real de tu base de datos
